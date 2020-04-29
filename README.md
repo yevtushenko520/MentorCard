@@ -9,7 +9,6 @@ The site and applications are multilingual in 32 languages
 * Platform: Android, iOS, Web
 * node.js, php, ionic 3, yii2
 
-The game is built on mathematical logic.
 ## Main Screen Web
 ![Image alt](https://github.com/appvilo/MentorCard/blob/master/web/pictures/main.png)
 
