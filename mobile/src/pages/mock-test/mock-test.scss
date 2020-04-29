@@ -1,0 +1,134 @@
+page-mock-test {
+    .toolbar-background{
+        background-color: #008000;
+    }
+
+    .bar-button-ios {
+        color: #fff;
+    }
+
+    .toolbar-title{
+        color: #fff;
+    }
+    .bar-buttons{
+        color: #fff;
+    }
+
+    .scroll-content{
+        background-color: #D3F6DA;
+    }
+   
+    .card{
+        background-color: #D3F6DA;
+    }
+
+    .item{
+        background-color: #D3F6DA;
+    }
+
+    .checkbox-ios .checkbox-icon {
+         border-radius: 0%;
+        position: relative;
+        width: 33px;
+        height: 33px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #000;
+       
+    }
+
+    .checkbox-ios .checkbox-checked .checkbox-inner {
+        left: 10px;
+        top: 2px;
+        position: absolute;
+        width: 8px;
+        height: 18px;
+        border-width: 2px;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-style: solid;
+        border-color: #fff;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .checkbox-md .checkbox-checked .checkbox-inner {
+        left: 10px;
+        top: 2px;
+        position: absolute;
+        width: 8px;
+        height: 18px;
+        border-width: 2px;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-style: solid;
+        border-color: #fff;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .button-small-ios {
+        height: 3em;
+        font-size: 1.3rem;
+        padding: 0 1em;
+    }
+    .button-small-md {
+        height: 3em;
+        font-size: 1.3rem;
+        padding: 0 1em;
+    }
+
+    ion-icon {
+        display: inline-block;
+        font-size: 1.6em;
+    }
+    .button-ios {
+         border-radius: 0px; 
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+      
+        margin: 0.4rem 0.2rem;
+        padding: 0 1em;
+        /* border-color: black; */
+        /* border-radius: 1px; */
+        border: 0.5px solid black;
+    }
+
+    .button-md {
+        border-radius: 0px; 
+       height: 2.8em;
+       font-size: 1.6rem;
+       color: #fff;
+      
+       margin: 0.4rem 0.2rem;
+       padding: 0 1em;
+       /* border-color: black; */
+       /* border-radius: 1px; */
+       border: 0.5px solid black;
+   }
+
+   .button_basic {
+   
+    border: none;
+    color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .grid{
+      padding: 0px;
+  }
+
+  .gg{
+    width: 80%;
+}
+
+
+}

@@ -1,0 +1,24 @@
+page-statistics {
+    .first{
+        background: green;
+
+    }
+
+    .second{
+background: orange;
+    }
+    .text-wt{
+        color: white;
+    }
+    .title_class{
+    color: darkcyan;
+    }
+    .scroll-content {
+        background-color: map-get($colors, light);
+    }
+
+    ion-card-header {
+        font-weight: bold;
+    }
+
+}

@@ -1,0 +1,95 @@
+<!--
+  Generated template for the StatisticsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Statistics</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+
+    <ion-card  >
+        <ion-item class= "first">
+          <ion-avatar item-start>
+              <img src="assets/imgs/close.png">
+          </ion-avatar>
+          <h2 class="text-wt">PRACTICE SHEETS</h2>
+          <h3 class="text-wt">3% made</h3>
+          <p class="text-wt">February 5,2019</p>
+        </ion-item>
+      </ion-card>
+    
+      <ion-card >
+        <ion-item class= "second">
+          <ion-avatar item-start>
+              <img src="assets/imgs/check-mark.png">
+          </ion-avatar>
+          <h2 class="text-wt">MOCK TEST</h2>
+          <h3 class="text-wt">21 of 920 done</h3>
+          <p class="text-wt">February 5,2019</p>
+        </ion-item>
+      </ion-card>
+
+
+
+      <ion-card >
+
+          <ion-card-header class="title_class">
+              Study Progress
+            </ion-card-header>
+
+            <ion-item>
+    
+                <ion-icon name="checkmark" item-start large></ion-icon>
+                <h2>CORRECT ANSWERS</h2>
+                <p>55 questions</p>
+              </ion-item>
+       
+              <ion-item>
+
+                  <ion-icon name="close" item-start large></ion-icon>
+                  <h2>
+                      WRONG ANSWERS</h2>
+                  <p>3 questions</p>
+                </ion-item>
+
+                <ion-item>
+                    <ion-icon name="help" item-start large></ion-icon>
+                    <h2>NO QUESTIONS ANSWERED</h2>
+                    <p>875 questions</p>
+                  </ion-item>
+    
+    
+          </ion-card>
+
+         
+            <ion-card>
+              <ion-card-header>
+                Doughnut Chart
+              </ion-card-header>
+              <ion-card-content>
+                <canvas #doughnutCanvas></canvas>
+              </ion-card-content>
+            </ion-card>
+         
+            <ion-card>
+              <ion-card-header>
+                Line Chart
+              </ion-card-header>
+              <ion-card-content>
+                <canvas #lineCanvas></canvas>
+              </ion-card-content>
+            </ion-card>
+
+          
+</ion-content>

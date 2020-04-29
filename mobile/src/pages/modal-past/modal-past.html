@@ -1,0 +1,59 @@
+<!--
+  Generated template for the ModalPastPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+
+  <ion-navbar>
+    <ion-title></ion-title>
+
+
+    <ion-buttons end >
+      <button ion-button style="color: white;"  icon-only (click)="closemodal()">
+        <ion-icon  style="color: white;" name="close-circle-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    
+    
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content style="background-color:  #c6ecd1">
+
+  <ion-item no-lines style="background-color:  #c6ecd1" >
+    <h3>Do you really want to end this test?</h3>
+    <p>You still have 6 unanswered questions</p>
+  </ion-item>
+
+
+  <ion-grid padding>
+    <ion-row>
+      <ion-col  class="accordion">
+        <div>
+          <img  src="assets/imgs/warnung.gif"/>
+        </div>
+      </ion-col>
+      <ion-col class="accordion2">
+        <div>
+          <button style="    border: 1px solid #c5c5c5;
+          background: #f6f6f6; padding: 5px;border-radius: 5px;" (click)="yes()">Yes, end test</button>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <button  style="    border: 1px solid #c5c5c5;
+          background: #f6f6f6;padding: 5px;border-radius: 5px;" (click)="no()">No, continue with the test</button>
+        </div>
+      </ion-col>
+
+      
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,210 @@
+
+<ion-content class="bg-img">
+    <div class="main-content">
+      <div padding text-center class="container-logo">
+          <img style="width: 25%;" src="assets/imgs/Logo_Web.png">
+      </div>
+  
+      <div padding  style="width: 100%;">
+     
+        <ion-list>
+
+            <ion-item>
+                <ion-label >Title</ion-label>
+                <ion-select [(ngModel)]="gender" placeholder="Title">
+                  <ion-option value="mr">Mr.</ion-option>
+                  <ion-option value="mrs">Mrs.</ion-option>
+                  <ion-option value="miss">Miss.</ion-option>
+                  <ion-option value="ms">Ms.</ion-option>
+                  <ion-option value="other">Other</ion-option>
+                </ion-select>
+              </ion-item>
+
+                     
+      <ion-item>
+          <ion-icon name="ios-person" ></ion-icon>
+          <ion-label   stacked>
+            First Name
+          </ion-label>
+            <ion-input type="text" [(ngModel)]="regData.fn"  placeholder="First Name"></ion-input>
+          
+        </ion-item>
+  
+  
+        <ion-item>
+            <ion-icon name="ios-person" ></ion-icon>
+            <ion-label   stacked>
+              Last Name
+            </ion-label>
+              <ion-input type="text" [(ngModel)]="regData.ln"   placeholder="Last Name"></ion-input>
+            
+          </ion-item>
+        
+        <ion-item>
+          <ion-icon name="mail" ></ion-icon>
+          <ion-label   stacked>
+            Email
+          </ion-label>
+            <ion-input type="text" [(ngModel)]="regData.email"  placeholder="Email"></ion-input>
+          
+        </ion-item>
+  
+        <ion-item>
+            <ion-icon name="mail" ></ion-icon>
+            <ion-label   stacked>
+                Repeat Email
+            </ion-label>
+              <ion-input type="text" [(ngModel)]="regData.rap_email"   placeholder="Repeat Email"></ion-input>
+            
+          </ion-item>
+
+        <ion-item>
+            <ion-icon name="password" ></ion-icon>
+            <ion-label   stacked>
+             Password
+            </ion-label>
+              <ion-input type="password" [(ngModel)]="regData.pass"  placeholder="Password"></ion-input>
+            
+          </ion-item>
+    
+        <ion-item>
+            <ion-icon name="person" ></ion-icon>
+            <ion-label   stacked>
+                Telephone No
+            </ion-label>
+              <ion-input type="text" [(ngModel)]="regData.phone"  placeholder="Phone Number"></ion-input>
+            
+          </ion-item>
+          <ion-item>
+              <ion-icon name="person" ></ion-icon>
+              <ion-label   stacked>
+                  Mobile Number
+              </ion-label>
+                <ion-input type="text" [(ngModel)]="regData.num"  placeholder="Mobile Number"></ion-input>
+              
+            </ion-item>
+          <ion-item>
+              <ion-icon name="person" ></ion-icon>
+              <ion-label   stacked>
+                Birthday
+              </ion-label>
+                <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="regData.bith" placeholder="Birthday"></ion-datetime>
+             
+            </ion-item>
+            <ion-item>
+                <ion-icon name="person" ></ion-icon>
+                <ion-label   stacked>
+                    Street
+                </ion-label>
+                  <ion-input type="text"  [(ngModel)]="regData.street" placeholder="Street"></ion-input>
+                
+              </ion-item>
+              <ion-item>
+                  <ion-icon name="person" ></ion-icon>
+                  <ion-label   stacked>
+                      Post Code
+                  </ion-label>
+                    <ion-input type="number"  [(ngModel)]="regData.postcode" placeholder="Post Code"></ion-input>
+                  
+                </ion-item>
+  
+                <ion-item>
+                    <ion-icon name="person" ></ion-icon>
+                    <ion-label   stacked>
+                        City
+                    </ion-label>
+                      <ion-input type="text"  [(ngModel)]="regData.city"  placeholder="City"></ion-input>
+                    
+                  </ion-item>
+  
+                  <ion-item>
+                      <ion-icon name="person" ></ion-icon>
+                      <ion-label   stacked>
+                          Mentorcard Pin
+                      </ion-label>
+                        <ion-input type="text"  [(ngModel)]="regData.pin" placeholder="Mentorcard Pin"></ion-input>
+                      
+                    </ion-item>
+  
+                      <ion-item>
+                          <ion-label >Select your language to take<br> the original test</ion-label>
+                          <ion-select [(ngModel)]="lang_1">
+                            <ion-option value="eng">Arabic</ion-option>
+                            <ion-option value="eng">Croatian</ion-option>
+                            <ion-option value="ger">English</ion-option>
+                            <ion-option value="ger">French</ion-option>
+                            <ion-option value="ger">Germany</ion-option>
+                            <ion-option value="ger">Greek</ion-option>
+                            <ion-option value="ger">Italian</ion-option>
+                            <ion-option value="ger">Polish</ion-option>
+                            <ion-option value="ger">Português</ion-option>
+                            <ion-option value="ger">Русский</ion-option>
+                            <ion-option value="ger">Română</ion-option>
+                            <ion-option value="ger">Spanish</ion-option>
+                            <ion-option value="ger">Turk</ion-option>
+                          </ion-select>
+                        </ion-item>
+  
+                        <ion-item>
+                            <ion-label >Select your language to study</ion-label>
+                            <ion-select [(ngModel)]="lang_2">
+                              <ion-option value="eng">Arabic</ion-option>
+                              <ion-option value="eng">Croatian</ion-option>
+                              <ion-option value="ger">English</ion-option>
+                              <ion-option value="ger">French</ion-option>
+                              <ion-option value="ger">Germany</ion-option>
+                              <ion-option value="ger">Greek</ion-option>
+                              <ion-option value="ger">Italian</ion-option>
+                              <ion-option value="ger">Polish</ion-option>
+                              <ion-option value="ger">Português</ion-option>
+                              <ion-option value="ger">Русский</ion-option>
+                              <ion-option value="ger">Română</ion-option>
+                              <ion-option value="ger">Spanish</ion-option>
+                              <ion-option value="ger">Turk</ion-option>
+                              
+                            </ion-select>
+                          </ion-item>
+
+
+                            
+                            <br>
+
+                              <ion-item>
+                                  <ion-label>I have read the terms and <br>
+                                             conditions and agree 
+                                      with them.</ion-label>
+                                  <ion-checkbox color="dark" [(ngModel)]="check_1"  (ionChange)="updateCucumber1()" checked="false"></ion-checkbox>
+                                </ion-item>
+
+                                <ion-item>
+                                    <ion-label>I have read the privacy 
+                                      policy <br>and agree with
+                                       them.</ion-label>
+                                    <ion-checkbox color="dark" [(ngModel)]="check_2" checked="false"></ion-checkbox>
+                                  </ion-item>
+
+                                  <ion-item>
+                                      <ion-label>I agree that Sood Germany
+                                         GmbH <br>will also send me
+                                          further offers <br>by post 
+                                          and / or email and 
+                                          
+                                          or<br> Mobile  or Whatsapp 
+                                          and/ or<br> inform me of
+                                          
+                                          any changes.</ion-label>
+                                      <ion-checkbox color="dark" [(ngModel)]="check_3" checked="false"></ion-checkbox>
+                                    </ion-item>
+    
+        </ion-list>
+        <button ion-button full color="dark" (click)="postReg()">Sign up</button>
+     
+      <div class="sepretor-or" padding-horizontal> <p style="color: black">Or</p></div>
+      
+      
+      <div padding text-center class="form-bottom-text">
+        <label style="color: black"> Already have an Account? <a href="javascript:void(0);" style="color: black" (click)="moveToLogin()"> Sign In </a> </label>
+      </div>
+    </div>
+    </div>
+  </ion-content>  

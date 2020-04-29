@@ -1,0 +1,990 @@
+<!--
+  Generated template for the PracticePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+      <ion-title *ngIf="gig=='1'">Basic Material/1.1.02.101</ion-title>
+      <ion-title *ngIf="gig=='2'">Basic Material/1.1.02.102</ion-title>
+      <ion-title *ngIf="gig=='3'">Basic Material/1.1.02.103</ion-title>
+      <ion-title *ngIf="gig=='4'">Basic Material/1.1.02.104</ion-title>
+      <ion-title *ngIf="gig=='5'">Basic Material/1.1.02.105</ion-title>
+      <ion-title *ngIf="gig=='6'">Basic Material/1.1.02.106</ion-title>
+      <ion-title *ngIf="gig=='7'">Basic Material/1.1.02.107</ion-title>
+      <ion-title *ngIf="gig=='8'">Basic Material/1.1.02.108</ion-title>
+      <ion-title *ngIf="gig=='9'">Basic Material/1.1.02.109</ion-title>
+      <ion-title *ngIf="gig=='10'">Basic Material/1.1.02.111</ion-title>
+      <ion-title *ngIf="gig=='11'">Basic Material/1.1.02.121</ion-title>
+      <ion-title *ngIf="gig=='12'">Basic Material/1.1.02.131</ion-title>
+      <ion-title *ngIf="gig=='13'">Basic Material/1.1.02.141</ion-title>
+      <ion-title *ngIf="gig=='14'">Basic Material/1.1.02.151</ion-title>
+      <ion-title *ngIf="gig=='15'">Basic Material/1.1.02.161</ion-title>
+      <ion-title *ngIf="gig=='16'">Basic Material/1.1.02.171</ion-title>
+      <ion-title *ngIf="gig=='17'">Basic Material/1.1.02.181</ion-title>
+      <ion-title *ngIf="gig=='18'">Basic Material/1.1.02.191</ion-title>
+      <ion-title *ngIf="gig=='19'">Basic Material/1.1.02.131</ion-title>
+      <ion-title *ngIf="gig=='20'">Basic Material/1.1.02.141</ion-title>
+      <ion-buttons end>
+          Points: 4
+        </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content >
+      <ion-list >
+      <ion-slides #slides>
+
+            <ion-slide >
+                    <ion-card>
+        
+                        <ion-item>
+                          
+                          <h2 >The cyclist in front of me will?</h2>
+                          <p >Quel doit ?tre votre comportement? </p>
+      
+                        </ion-item >
+                      
+                        
+                        <div id="over" style="margin: 5px; ">
+                            <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                        </div>
+                      
+                        <ion-card-content>
+                            <ion-item>
+                                <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                              </ion-item>
+                              <ion-item>
+                                  <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                  <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                </ion-item>
+                                <ion-item>
+                                    <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                  </ion-item>
+                        </ion-card-content>
+                      
+                        
+                      
+                      </ion-card>
+
+                      <ion-card>
+                        <button ion-item (click)="error()">
+                            <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                            Failed
+                          </button>
+                       
+                      </ion-card>
+
+                </ion-slide>
+                <ion-slide >
+                        <ion-card>
+            
+                            <ion-item>
+                              
+                                    <h2 >The cyclist in front of me will?</h2>
+                                    <p >Quel doit ?tre votre comportement? </p>
+          
+                            </ion-item >
+                          
+                            
+                            <div id="over" style="margin: 5px; ">
+                                <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                            </div>
+                          
+                            <ion-card-content>
+                                <ion-item>
+                                    <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                  </ion-item>
+                                  <ion-item>
+                                      <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                      <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                        <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                      </ion-item>
+                            </ion-card-content>
+                          
+                            
+                          
+                          </ion-card>
+
+                          <ion-card>
+                            <button ion-item (click)="error()">
+                                <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                Failed
+                              </button>
+                           
+                          </ion-card>
+                    </ion-slide>
+                    <ion-slide >
+                            <ion-card>
+                
+                                <ion-item>
+                                  
+                                        <h2 >The cyclist in front of me will?</h2>
+                                        <p >Quel doit ?tre votre comportement? </p>
+              
+                                </ion-item >
+                              
+                                
+                                <div id="over" style="margin: 5px; ">
+                                    <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                </div>
+                              
+                                <ion-card-content>
+                                    <ion-item>
+                                        <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                        <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                      </ion-item>
+                                      <ion-item>
+                                          <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                          <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                        </ion-item>
+                                        <ion-item>
+                                            <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                            <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                          </ion-item>
+                                </ion-card-content>
+                              
+                                
+                              
+                              </ion-card>
+
+
+                              <ion-card>
+                                <button ion-item (click)="error()">
+                                    <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                    Done
+                                  </button>
+                               
+                              </ion-card>
+                        </ion-slide>
+                        <ion-slide >
+                                <ion-card>
+                    
+                                    <ion-item>
+                                      
+                                            <h2 >The cyclist in front of me will?</h2>
+                                            <p >Quel doit ?tre votre comportement? </p>
+                  
+                                    </ion-item >
+                                  
+                                    
+                                    <div id="over" style="margin: 5px; ">
+                                        <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                    </div>
+                                  
+                                    <ion-card-content>
+                                        <ion-item>
+                                            <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                            <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                          </ion-item>
+                                          <ion-item>
+                                              <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                              <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                              </ion-item>
+                                    </ion-card-content>
+                                  
+                                    
+                                  
+                                  </ion-card>
+                                  <ion-card>
+                                    <button ion-item (click)="error()">
+                                        <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                        Done
+                                      </button>
+                                   
+                                  </ion-card>
+                            </ion-slide>
+                            <ion-slide >
+                                    <ion-card>
+                        
+                                        <ion-item>
+                                          
+                                                <h2 >The cyclist in front of me will?</h2>
+                                                <p >Quel doit ?tre votre comportement? </p>
+                      
+                                        </ion-item >
+                                      
+                                        
+                                        <div id="over" style="margin: 5px; ">
+                                            <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                        </div>
+                                      
+                                        <ion-card-content>
+                                            <ion-item>
+                                                <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                              </ion-item>
+                                              <ion-item>
+                                                  <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                  <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                </ion-item>
+                                                <ion-item>
+                                                    <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                  </ion-item>
+                                        </ion-card-content>
+                                      
+                                        
+                                      
+                                      </ion-card>
+                                      <ion-card>
+                                        <button ion-item (click)="error()">
+                                            <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                            Done
+                                          </button>
+                                       
+                                      </ion-card>
+                                </ion-slide>
+                                <ion-slide >
+                                        <ion-card>
+                            
+                                            <ion-item>
+                                              
+                                                    <h2 >The cyclist in front of me will?</h2>
+                                                    <p >Quel doit ?tre votre comportement? </p>
+                          
+                                            </ion-item >
+                                          
+                                            
+                                            <div id="over" style="margin: 5px; ">
+                                                <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                            </div>
+                                          
+                                            <ion-card-content>
+                                                <ion-item>
+                                                    <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                  </ion-item>
+                                                  <ion-item>
+                                                      <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                      <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                    </ion-item>
+                                                    <ion-item>
+                                                        <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                        <ion-checkbox color="dark" checked="true"  ></ion-checkbox>
+                                                      </ion-item>
+                                            </ion-card-content>
+                                          
+                                            
+                                          
+                                          </ion-card>
+
+                                          <ion-card>
+                                            <button ion-item (click)="error()">
+                                                <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                Failed
+                                              </button>
+                                           
+                                          </ion-card>
+
+                                    </ion-slide>
+                                    <ion-slide >
+                                            <ion-card>
+                                
+                                                <ion-item>
+                                                  
+                                                        <h2 >The cyclist in front of me will?</h2>
+                                                        <p >Quel doit ?tre votre comportement? </p>
+                              
+                                                </ion-item >
+                                              
+                                                
+                                                <div id="over" style="margin: 5px; ">
+                                                    <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                </div>
+                                              
+                                                <ion-card-content>
+                                                    <ion-item>
+                                                        <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                        <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                      </ion-item>
+                                                      <ion-item>
+                                                          <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                          <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                        </ion-item>
+                                                        <ion-item>
+                                                            <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                            <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                          </ion-item>
+                                                </ion-card-content>
+                                              
+                                                
+                                              
+                                              </ion-card>
+                                              <ion-card>
+                                                <button ion-item (click)="error()">
+                                                    <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                    Failed
+                                                  </button>
+                                               
+                                              </ion-card>
+                                        </ion-slide>
+                                        <ion-slide >
+                                                <ion-card>
+                                    
+                                                    <ion-item>
+                                                      
+                                                            <h2 >The cyclist in front of me will?</h2>
+                                                            <p >Quel doit ?tre votre comportement? </p>
+                                  
+                                                    </ion-item >
+                                                  
+                                                    
+                                                    <div id="over" style="margin: 5px; ">
+                                                        <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                    </div>
+                                                  
+                                                    <ion-card-content>
+                                                        <ion-item>
+                                                            <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                            <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                          </ion-item>
+                                                          <ion-item>
+                                                              <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                              <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                            </ion-item>
+                                                            <ion-item>
+                                                                <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                              </ion-item>
+                                                    </ion-card-content>
+                                                  
+                                                    
+                                                  
+                                                  </ion-card>
+                                                  <ion-card>
+                                                    <button ion-item (click)="error()">
+                                                        <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                                        Done
+                                                      </button>
+                                                   
+                                                  </ion-card>
+                                            </ion-slide>
+                                            <ion-slide >
+                                                    <ion-card>
+                                        
+                                                        <ion-item>
+                                                          
+                                                                <h2 >The cyclist in front of me will?</h2>
+                                                                <p >Quel doit ?tre votre comportement? </p>
+                                      
+                                                        </ion-item >
+                                                      
+                                                        
+                                                        <div id="over" style="margin: 5px; ">
+                                                            <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                        </div>
+                                                      
+                                                        <ion-card-content>
+                                                            <ion-item>
+                                                                <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                              </ion-item>
+                                                              <ion-item>
+                                                                  <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                  <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                </ion-item>
+                                                                <ion-item>
+                                                                    <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                  </ion-item>
+                                                        </ion-card-content>
+                                                      
+                                                        
+                                                      
+                                                      </ion-card>
+                                                      <ion-card>
+                                                        <button ion-item (click)="error()">
+                                                            <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                                            Done
+                                                          </button>
+                                                       
+                                                      </ion-card>
+                                                </ion-slide>
+                                                <ion-slide >
+                                                        <ion-card>
+                                            
+                                                            <ion-item>
+                                                              
+                                                                    <h2 >The cyclist in front of me will?</h2>
+                                                                    <p >Quel doit ?tre votre comportement? </p>
+                                          
+                                                            </ion-item >
+                                                          
+                                                            
+                                                            <div id="over" style="margin: 5px; ">
+                                                                <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                            </div>
+                                                          
+                                                            <ion-card-content>
+                                                                <ion-item>
+                                                                    <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                  </ion-item>
+                                                                  <ion-item>
+                                                                      <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                      <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                    </ion-item>
+                                                                    <ion-item>
+                                                                        <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                        <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                      </ion-item>
+                                                            </ion-card-content>
+                                                          
+                                                            
+                                                          
+                                                          </ion-card>
+                                                          <ion-card>
+                                                            <button ion-item (click)="error()">
+                                                                <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                                                Done
+                                                              </button>
+                                                           
+                                                          </ion-card>
+                                                    </ion-slide>
+                                                    <ion-slide >
+                                                            <ion-card>
+                                                
+                                                                <ion-item>
+                                                                  
+                                                                        <h2 >The cyclist in front of me will?</h2>
+                                                                        <p >Quel doit ?tre votre comportement? </p>
+                                                                </ion-item >
+                                                              
+                                                                
+                                                                <div id="over" style="margin: 5px; ">
+                                                                    <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                </div>
+                                                              
+                                                                <ion-card-content>
+                                                                    <ion-item>
+                                                                        <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                        <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                      </ion-item>
+                                                                      <ion-item>
+                                                                          <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                          <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                        </ion-item>
+                                                                        <ion-item>
+                                                                            <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                            <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                          </ion-item>
+                                                                </ion-card-content>
+                                                              
+                                                                
+                                                              
+                                                              </ion-card>
+                                                              <ion-card>
+                                                                <button ion-item (click)="error()">
+                                                                    <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                                    Failed
+                                                                  </button>
+                                                               
+                                                              </ion-card>
+                                                        </ion-slide>
+                                                        <ion-slide >
+                                                                <ion-card>
+                                                    
+                                                                    <ion-item>
+                                                                      
+                                                                            <h2 >The cyclist in front of me will?</h2>
+                                                                            <p >Quel doit ?tre votre comportement? </p>
+                                                  
+                                                                    </ion-item >
+                                                                  
+                                                                    
+                                                                    <div id="over" style="margin: 5px; ">
+                                                                        <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                    </div>
+                                                                  
+                                                                    <ion-card-content>
+                                                                        <ion-item>
+                                                                            <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                            <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                          </ion-item>
+                                                                          <ion-item>
+                                                                              <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                              <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                            </ion-item>
+                                                                            <ion-item>
+                                                                                <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                              </ion-item>
+                                                                    </ion-card-content>
+                                                                  
+                                                                    
+                                                                  
+                                                                  </ion-card>
+                                                                  <ion-card>
+                                                                    <button ion-item (click)="error()">
+                                                                        <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                                        Failed
+                                                                      </button>
+                                                                   
+                                                                  </ion-card>
+                                                            </ion-slide>
+                                                            <ion-slide >
+                                                                    <ion-card>
+                                                        
+                                                                        <ion-item>
+                                                                          
+                                                                                <h2 >The cyclist in front of me will?</h2>
+                                                                                <p >Quel doit ?tre votre comportement? </p>
+                                                      
+                                                                        </ion-item >
+                                                                      
+                                                                        
+                                                                        <div id="over" style="margin: 5px; ">
+                                                                            <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                        </div>
+                                                                      
+                                                                        <ion-card-content>
+                                                                            <ion-item>
+                                                                                <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                              </ion-item>
+                                                                              <ion-item>
+                                                                                  <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                  <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                                </ion-item>
+                                                                                <ion-item>
+                                                                                    <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                  </ion-item>
+                                                                        </ion-card-content>
+                                                                      
+                                                                        
+                                                                      
+                                                                      </ion-card>
+                                                                      <ion-card>
+                                                                        <button ion-item (click)="error()">
+                                                                            <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+                                                                            Done
+                                                                          </button>
+                                                                       
+                                                                      </ion-card>
+                                                                </ion-slide>
+                                                                <ion-slide >
+                                                                        <ion-card>
+                                                            
+                                                                            <ion-item>
+                                                                              
+                                                                                    <h2 >The cyclist in front of me will?</h2>
+                                                                                    <p >Quel doit ?tre votre comportement? </p>
+                                                          
+                                                                            </ion-item >
+                                                                          
+                                                                            
+                                                                            <div id="over" style="margin: 5px; ">
+                                                                                <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                            </div>
+                                                                          
+                                                                            <ion-card-content>
+                                                                                <ion-item>
+                                                                                    <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                  </ion-item>
+                                                                                  <ion-item>
+                                                                                      <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                      <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                                    </ion-item>
+                                                                                    <ion-item>
+                                                                                        <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                        <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                      </ion-item>
+                                                                            </ion-card-content>
+                                                                          
+                                                                            
+                                                                          
+                                                                          </ion-card>
+                                                                          <ion-card>
+                                                                            <button ion-item (click)="error()">
+                                                                                <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                                                Failed
+                                                                              </button>
+                                                                           
+                                                                          </ion-card>
+                                                                    </ion-slide>
+                                                                    <ion-slide >
+                                                                            <ion-card>
+                                                                
+                                                                                <ion-item>
+                                                                                  
+                                                                                        <h2 >The cyclist in front of me will?</h2>
+                                                                                        <p >Quel doit ?tre votre comportement? </p>
+                                                              
+                                                                                </ion-item >
+                                                                              
+                                                                                
+                                                                                <div id="over" style="margin: 5px; ">
+                                                                                    <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                                </div>
+                                                                              
+                                                                                <ion-card-content>
+                                                                                    <ion-item>
+                                                                                        <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                        <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                                                                                      </ion-item>
+                                                                                      <ion-item>
+                                                                                          <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                          <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                        </ion-item>
+                                                                                        <ion-item>
+                                                                                            <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                            <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                          </ion-item>
+                                                                                </ion-card-content>
+                                                                              
+                                                                                
+                                                                              
+                                                                              </ion-card>
+                                                                              <ion-card>
+                                                                                <button ion-item (click)="error()">
+                                                                                    <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                                                    Failed
+                                                                                  </button>
+                                                                               
+                                                                              </ion-card>
+                                                                        </ion-slide>
+                                                                        <ion-slide >
+                                                                                <ion-card>
+                                                                    
+                                                                                    <ion-item>
+                                                                                      
+                                                                                            <h2 >The cyclist in front of me will?</h2>
+                                                                                            <p >Quel doit ?tre votre comportement? </p>
+                                                                  
+                                                                                    </ion-item >
+                                                                                  
+                                                                                    
+                                                                                    <div id="over" style="margin: 5px; ">
+                                                                                        <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                                    </div>
+                                                                                  
+                                                                                    <ion-card-content>
+                                                                                        <ion-item>
+                                                                                            <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                            <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                          </ion-item>
+                                                                                          <ion-item>
+                                                                                              <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                              <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                            </ion-item>
+                                                                                            <ion-item>
+                                                                                                <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                                <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                              </ion-item>
+                                                                                    </ion-card-content>
+                                                                                  
+                                                                                    
+                                                                                  
+                                                                                  </ion-card>
+                                                                                  <ion-card>
+                                                                                    <button ion-item (click)="error()">
+                                                                                        <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                                                        Failed
+                                                                                      </button>
+                                                                                   
+                                                                                  </ion-card>
+                                                                            </ion-slide>
+                                                                            <ion-slide >
+                                                                                    <ion-card>
+                                                                        
+                                                                                        <ion-item>
+                                                                                          
+                                                                                                <h2 >The cyclist in front of me will?</h2>
+                                                                                                <p >Quel doit ?tre votre comportement? </p>
+                                                                      
+                                                                                        </ion-item >
+                                                                                      
+                                                                                        
+                                                                                        <div id="over" style="margin: 5px; ">
+                                                                                            <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                                                                                        </div>
+                                                                                      
+                                                                                        <ion-card-content>
+                                                                                            <ion-item>
+                                                                                                <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                                <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                              </ion-item>
+                                                                                              <ion-item>
+                                                                                                  <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                                  <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                                </ion-item>
+                                                                                                <ion-item>
+                                                                                                    <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                                                                                                    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                                                                                                  </ion-item>
+                                                                                        </ion-card-content>
+                                                                                      
+                                                                                        
+                                                                                      
+                                                                                      </ion-card>
+                                                                                      <ion-card>
+                                                                                        <button ion-item (click)="error()">
+                                                                                            <ion-icon name="md-close-circle" style="color: red" item-start></ion-icon>
+                                                                                            Failed
+                                                                                          </button>
+                                                                                       
+                                                                                      </ion-card>
+                                                                                </ion-slide>
+
+  
+          <ion-slide >
+              <ion-card>
+  
+                  <ion-item>
+                    
+                        <h2 >The cyclist in front of me will?</h2>
+                        <p >Quel doit ?tre votre comportement? </p>
+
+                  </ion-item >
+                
+                  
+                  <div id="over" style="margin: 5px; ">
+                      <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                  </div>
+                
+                  <ion-card-content>
+                      <ion-item>
+                          <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                          <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                        </ion-item>
+                        <ion-item>
+                            <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                            <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                          </ion-item>
+                          <ion-item>
+                              <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                              <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                            </ion-item>
+                  </ion-card-content>
+                
+                  
+                
+                </ion-card>
+                
+<ion-card>
+    <button ion-item (click)="error()">
+        <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+        Done
+      </button>
+   
+  </ion-card>
+          </ion-slide>
+        
+          <ion-slide >
+              <ion-card>
+  
+                  <ion-item>
+                    
+                        <h2 >The cyclist in front of me will?</h2>
+                        <p >Quel doit ?tre votre comportement? </p>
+    
+                  </ion-item>
+                
+                  <div id="over" style="margin: 5px; ">
+                      <img    style="width: 60%;" src="assets/imgs/stu_standart.png">
+                  </div>
+                  <ion-card-content>
+                      <ion-item>
+                          <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                          <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                        </ion-item>
+                        <ion-item>
+                            <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                            <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                          </ion-item>
+                          <ion-item>
+                              <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                              <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                            </ion-item>
+                  </ion-card-content>
+                
+                  
+                
+                </ion-card>
+                
+<ion-card>
+    <button ion-item (click)="error()">
+        <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+        Done
+      </button>
+   
+  </ion-card>
+          </ion-slide>
+        
+          <ion-slide >
+              <ion-card>
+  
+                  <ion-item>
+                    
+                        <h2 >The cyclist in front of me will?</h2>
+                        <p >Quel doit ?tre votre comportement? </p>
+    
+                  </ion-item>
+                
+                  <div id="over" style="margin: 5px; ">
+                      <img style="width: 60%;" src="assets/imgs/stu_standart.png">
+                  </div>
+                
+                  <ion-card-content>
+                      <ion-item>
+                          <ion-label>- turn to the left<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                          <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                        </ion-item>
+                        <ion-item>
+                            <ion-label>- go to the other side of the road<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                            <ion-checkbox color="dark" checked="false"></ion-checkbox>
+                          </ion-item>
+                          <ion-item>
+                              <ion-label>- not impede me as i proceed<br>( - qui sappr?te ? rouler sur lautre voie  )</ion-label>
+                              <ion-checkbox color="dark" checked="true" ></ion-checkbox>
+                            </ion-item>
+                  </ion-card-content>
+                
+                  
+                
+                </ion-card>
+                
+<ion-card>
+    <button ion-item (click)="error()">
+        <ion-icon name="ios-arrow-dropdown-circle" style="color: green" item-start></ion-icon>
+        Done
+      </button>
+   
+  </ion-card>
+          </ion-slide>
+        
+        </ion-slides>
+  
+  
+        <ion-footer align-title="center">
+            <ion-grid >
+                <ion-row>
+                  <ion-col *ngIf="gig=='1'">
+                   Question 1 of 20
+                  </ion-col>
+                  <ion-col *ngIf="gig=='2'">
+                    Question   2 of 20
+                    </ion-col>
+                    <ion-col *ngIf="gig=='3'">
+                        Question   3 of 20
+                    </ion-col>
+                    <ion-col *ngIf="gig=='4'">
+                        Question    4 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='5'">
+                        Question   5 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='6'">
+                        Question    6 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='7'">
+                        Question    7 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='8'">
+                        Question   8 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='9'">
+                        Question   9 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='10'">
+                        Question   10 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='11'">
+                        Question   11 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='12'">
+                        Question   12 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='13'">
+                        Question  13 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='14'">
+                        Question 14 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='15'">
+                        Question  15 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='16'">
+                        Question  16 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='17'">
+                        Question   17 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='18'">
+                        Question   18 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='19'">
+                        Question    19 of 20
+                      </ion-col>
+                      <ion-col *ngIf="gig=='20'">
+                        Question  20 of 20
+                      </ion-col>
+                  <ion-col >
+                    
+                  </ion-col>
+                  
+
+
+                </ion-row>
+                
+              </ion-grid>
+  
+            <ion-grid text-center>
+                <ion-row>
+                    <ion-col>
+                      <button ion-button style="background-color: #FFA500" (click)="prev()">< Previous</button>
+                    </ion-col>
+                    <ion-col>
+                        <button ion-button color="danger" (click)="showConfirm()">Submit</button>
+                    </ion-col>
+                    <ion-col>
+                        <button ion-button color="secondary" (click)="next()">Next ></button>
+                    </ion-col>
+                  </ion-row>
+               
+              </ion-grid>
+  
+  
+          </ion-footer>
+        
+  
+      </ion-list >
+  
+      <style>
+      
+      .card-content-ios {
+       padding: 0px;
+      font-size: 1.4rem;
+      line-height: 1.4;
+  }
+  
+  #over img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  
+      </style>
+  
+  </ion-content>
+  

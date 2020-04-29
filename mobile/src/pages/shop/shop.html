@@ -1,0 +1,189 @@
+<!--
+  Generated template for the ShopPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Shop</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    <ion-grid>
+        <ion-row>
+          <ion-col>
+              <button ion-button full color="light" (click)="prev()">Order</button>
+          </ion-col>
+          <ion-col>
+              <button ion-button full  (click)="next()">Code List</button>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>
+
+      <ion-list >
+
+          <ion-slides #slides>
+              <ion-slide>
+
+    <ion-card>
+
+        <ion-item>
+          
+          <h2 class="title_class">Order</h2>
+          
+        </ion-item>
+      
+      
+        <ion-card-content>
+            <ion-item>
+                <ion-label>Mentorcard 6,99 €</ion-label>
+                <ion-select [(ngModel)]="mentorcard">
+                  <ion-option value="0">0</ion-option>
+                  <ion-option value="10">10</ion-option>
+                  <ion-option value="20">20</ion-option>
+                  <ion-option value="30">30</ion-option>
+                  <ion-option value="40">40</ion-option>
+                  <ion-option value="50">50</ion-option>
+                  <ion-option value="60">60</ion-option>
+                  <ion-option value="70">70</ion-option>
+                  <ion-option value="80">80</ion-option>
+                  <ion-option value="90">90</ion-option>
+                  <ion-option value="100">100</ion-option>
+                </ion-select>
+              </ion-item>
+
+
+
+        </ion-card-content>
+
+        <ion-card-header class="title_class">
+           
+Invoice & Shipping
+          </ion-card-header>
+      
+          <ion-item>
+              <ion-icon name="mail" ></ion-icon>
+              <ion-label>
+                <p>Rechnungsadresse</p>
+                <h2>reseller</h2>
+                <h2>test</h2>
+                <h2>123321 kaha</h2>
+              </ion-label>
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="mail" ></ion-icon>
+                <ion-label>
+                  <p>Lieferadresse</p>
+                  <h2>reseller</h2>
+                  <h2>test</h2>
+                  <h2>123321 kaha</h2>
+                </ion-label>
+              </ion-item>
+      
+      </ion-card>
+
+      <ion-card>
+          <ion-card-header class="title_class">
+              Order summary
+          </ion-card-header>
+          <ion-card-content>
+              <ion-grid>
+                  <ion-row>
+                    <ion-col>
+                      <div>Invoice amount</div>
+                    </ion-col>
+                    <ion-col>
+                      <div>0.0 €</div>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                      <ion-col>
+                        <div>+ 19% VAT</div>
+                      </ion-col>
+                      <ion-col>
+                        <div>0.0 €</div>
+                      </ion-col>
+                    </ion-row>
+                </ion-grid>
+<ion-item>
+                <ion-icon name="mail" ></ion-icon>
+                <ion-label>
+                  <p>Invoice amount:</p>
+                  <h2>0.0 €</h2>
+                 
+                </ion-label>
+              </ion-item>
+              <button ion-button full (click)="presentError()">Buy Now</button>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-slide>
+
+
+      <ion-slide>
+          <div class="title_class">
+              Code List
+          </div>
+
+          <ion-card>
+
+              <ion-item>
+                <ion-avatar item-start>
+                  <img src="assets/imgs/power.png">
+                </ion-avatar>
+                <h2>gzChCc</h2>
+                <p>fahrschulementor@gmail.com</p>
+              </ion-item>
+            
+            
+              
+            
+            </ion-card>
+            <ion-card>
+
+                <ion-item>
+                  <ion-avatar item-start>
+                    <img src="assets/imgs/power.png">
+                  </ion-avatar>
+                  <h2>IxfbVn</h2>
+                  <p>student1@protonmail.com</p>
+                </ion-item>
+              
+              
+                
+              
+              </ion-card>
+              <ion-card>
+
+                  <ion-item>
+                    <ion-avatar item-start>
+                      <img src="assets/imgs/power-button.png">
+                    </ion-avatar>
+                    <h2>DjbbQ5</h2>
+                    <p style="color: firebrick">(not set)</p>
+                  </ion-item>
+                
+                
+                  
+                
+                </ion-card>
+
+        </ion-slide>
+        
+      </ion-slides>
+
+
+    
+  </ion-list >
+
+</ion-content>

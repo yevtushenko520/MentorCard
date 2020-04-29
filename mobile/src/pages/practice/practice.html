@@ -1,0 +1,2224 @@
+<!--
+  Generated template for the PracticePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title *ngIf="gig=='1'">1.1.02.101</ion-title>
+    <ion-title *ngIf="gig=='2'">1.1.02.102</ion-title>
+    <ion-title *ngIf="gig=='3'">1.1.02.103</ion-title>
+    <ion-title *ngIf="gig=='4'">1.1.02.104</ion-title>
+    <ion-title *ngIf="gig=='5'">1.1.02.105</ion-title>
+    <ion-title *ngIf="gig=='6'">1.1.02.106</ion-title>
+    <ion-title *ngIf="gig=='7'">1.1.02.107</ion-title>
+    <ion-title *ngIf="gig=='8'">1.1.02.108</ion-title>
+    <ion-title *ngIf="gig=='9'">1.1.02.109</ion-title>
+    <ion-title *ngIf="gig=='10'">1.1.02.111</ion-title>
+    <ion-title *ngIf="gig=='11'">1.1.02.121</ion-title>
+    <ion-title *ngIf="gig=='12'">1.1.02.131</ion-title>
+    <ion-title *ngIf="gig=='13'">1.1.02.141</ion-title>
+    <ion-title *ngIf="gig=='14'">1.1.02.151</ion-title>
+    <ion-title *ngIf="gig=='15'">1.1.02.161</ion-title>
+    <ion-title *ngIf="gig=='16'">1.1.02.171</ion-title>
+    <ion-title *ngIf="gig=='17'">1.1.02.181</ion-title>
+    <ion-title *ngIf="gig=='18'">1.1.02.191</ion-title>
+    <ion-title *ngIf="gig=='19'">1.1.02.131</ion-title>
+    <ion-title *ngIf="gig=='20'">1.1.02.141</ion-title>
+    <ion-buttons end>
+        Points: 4
+      </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    <ion-list >
+    <ion-slides #slides>
+
+          <ion-slide >
+                
+                      <ion-item no-lines>
+                        
+                          <h2 style="margin-bottom: 0px;"><b style="    font-size: 14px;">In welchen Fällen muss das Überholen abgebrochen werden?<br></b>
+                            <p>ਤੁਹਾਨੂੰ ਕਿਸ ਸੂਰਤ ਵਿਚ ਓਵਰਟੇਕ ਕਰਨਾ ਛੱਡ ਦੇਣ ਚਾਹੀਦਾ ਹੈ?</p></h2>
+                       
+                       
+                      </ion-item >
+                    
+                      
+                      <div id="over" style="margin: 5px; ">
+
+                          <video class="gg" controls>
+                            <source src="assets/imgs/video.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+
+                      </div>
+                    
+                      <ion-card-content>
+                          <ion-item no-lines>
+                               <ion-label><b style="    font-size: 14px;">Wenn der Eingeholte plötzlich beschleunigt.<br></b><p>(ਜਦੋਂ ਓਵਰਟੇਕ ਹੋਣ ਵਾਲਾ ਅਚਾਨਕ ਗਤੀ ਵਧਾ ਦੇਵੇ)</p></ion-label>
+                               
+                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                            </ion-item>
+                            <ion-item no-lines>
+                                <ion-label><b style="    font-size: 14px;">Wenn durch unerwarteten Gegenverkehr<br></b><p>(ਜਦੋਂ ਅਚਾਨਕ ਆਉਣ ਵਾਲੇ ਟਰੈਫ਼ਿਕ ਤੋਂ ਖ਼ਤਰਾ ਹੋਵੇ )</p></ion-label>
+                                
+                                <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                              </ion-item>
+                              <ion-item no-lines>
+                                   <ion-label><b style="    font-size: 14px;">Wenn der Eingeholte seine Geschwindigkeit<br></b><p>(ਜਦੋਂ ਓਵਰਟੇਕ ਹੋਣ ਵਾਲਾ ਰਫ਼ਤਾਰ ਕਾਫ਼ੀ ਘਟਾ ਦੇਵੇ)</p></ion-label>
+                                   
+                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                </ion-item>
+                      </ion-card-content>
+                    
+                      
+                    
+                   
+              </ion-slide>
+              <ion-slide >
+                    
+          
+                          <ion-item no-lines>
+                            
+                                    <h2 ><b style="    font-size: 14px;">Womit m?ssen Sie rechnen?<br></b><p>ਉਹੋਸੜਕ ਉੱਤੇ ਬਿਲਕੁਲ ਸਹੀ ਸਲੂਕ ਕਰਦੇ ਹਨ</p></h2>
+                                 
+        
+                          </ion-item >
+                        
+                          
+                          <div id="over" style="margin: 5px; ">
+                              <img  class="gg"    src="assets/imgs/stu_standart.png">
+                          </div>
+                        
+                          <ion-card-content>
+                              <ion-item no-lines>
+                                   <ion-label><b style="    font-size: 14px;">Mit einem Fahrzeug, das am Bus vorbeif?hrt <br></b><p>( ਤੁਹਾਡਾ ਹੈਜ਼ਰਡ ਚੇਤਾਵਨੀ ਲਾਈਟ (ਵਾਰਨ ਬ੍ਲਿੰਕਰ) ਕੀ ਧਿਆਨ ਖਿੱਚਦੇ ਹਨ? )</p></ion-label>
+                                   
+                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                </ion-item>
+                                <ion-item no-lines>
+                                    <ion-label><b style="    font-size: 14px;">Dass ich vor der Kreuzung halten muss <br></b><p>( ਗੱਡੀਆਂ ਜੋਕਿ ਖ਼ਰਾਬ ਹੋਕੇ ਸੜਕ ਉੱਤੇ ਖਲੋਤਿਆਂ ਹਨ )</p></ion-label>
+                                    
+                                    <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                  </ion-item>
+                                  <ion-item no-lines>
+                                       <ion-label><b style="    font-size: 14px;">Mit Personen, die die Fahrbahn ?berqueren <br></b><p>( ਸਕੂਲ ਦੀਆਂ ਬੱਸਾਂ ਜਿਸ ਦੇ ਵਿਚ ਬੱਚੇ ਚੜ੍ਹ ਅਤੇ ਉੱਤਰ ਰਹੇ ਹਨ )</p></ion-label>
+                                       
+                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                    </ion-item>
+                          </ion-card-content>
+                        
+                          
+                        
+                      
+                  </ion-slide>
+                  <ion-slide >
+                        
+              
+                              <ion-item no-lines>
+                                
+                                        <h2 ><b style="    font-size: 14px;">Geschwindigkeit vermindern<br></b><p>ਇੱਕ ਵੱਡੀ ਕਮ੍ਬਾਇਨ ਹਾਰ੍ਵਸ੍ਟਰ</p></h2>
+                                     
+            
+                              </ion-item >
+                            
+                              
+                              <div id="over" style="margin: 5px; ">
+                                <video class="gg" controls>
+                                  <source src="assets/imgs/video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                                </video>
+                              </div>
+                            
+                              <ion-card-content>
+                                  <ion-item no-lines>
+                                       <ion-label><b style="    font-size: 14px;">	Bremsbereit sein<br></b><p>( ਕਮ੍ਬਾਇਨ ਹਾਰ੍ਵਸ੍ਟਰ (ਫ਼ਸਲ ਕੱਟਣ ਵਾਲੀ ਮਸ਼ੀਨ) )</p></ion-label>
+                                       
+                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                    </ion-item>
+                                    <ion-item no-lines>
+                                        <ion-label><b style="    font-size: 14px;">Unver?ndert weiterfahren <br></b><p>( - ਮੁੜਨ ਤੋਂ ਪਹਿਲਾ ਖੱਬੇ ਨੂੰ ਝੂਟਾ ਮਾਰੇਗੀ )</p></ion-label>
+                                        
+                                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                      </ion-item>
+                                      <ion-item no-lines>
+                                           <ion-label><b style="    font-size: 14px;">Wie verhalten Sie sich in dieser Situation?<br></b><p>( - ਮੁੜਨ ਤੋਂ ਪਹਿਲਾ, ਇੱਕ ਦਮ ਹੋਲੀ ਹੋਵੇਗੀ )</p></ion-label>
+                                           
+                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                        </ion-item>
+                              </ion-card-content>
+                            
+                              
+                            
+                          
+                      </ion-slide>
+                      <ion-slide >
+                            
+                  
+                                  <ion-item no-lines>
+                                    
+                                            <h2 ><b style="    font-size: 14px;">Bremsbereit sein<br></b><p>ਤੁਸੀਂ ਖੇਤੀ ਕਰਨ ਵਾਲੇ ਵਾਹਨ ਜਿਸ ਦੇ ਪਿੱਛੇ ਟਰਾਲੀ ਹੈ ਅਤੇ </p></h2>
+                                         
+                
+                                  </ion-item >
+                                
+                                  
+                                  <div id="over" style="margin: 5px; ">
+                                    <video class="gg" controls>
+                                      <source src="assets/imgs/video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                  </div>
+                                
+                                  <ion-card-content>
+                                      <ion-item no-lines>
+                                           <ion-label><b style="    font-size: 14px;">	Unver?ndert weiterfahren <br></b><p>( ਖ਼ਾਸਕਰ ਜੱਦ ਬਰੇਕ ਮਾਰੇਗਾ ਜਾਂ ਮੁੜਜ ਭਾਰ ਗਿਰ ਸਕਦਾ ਹੈ )</p></ion-label>
+                                           
+                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                        </ion-item>
+                                        <ion-item no-lines>
+                                            <ion-label><b style="    font-size: 14px;">Wie verhalten Sie sich in dieser Situation? <br></b><p> ਖ਼ਾਸਕਰ ਭਾਰ ਦੀ ਵਜ੍ਹਾ ਨਾਲ ਬਰੇਕਾਂ ਦੀ ਸਮਰੱਥਾ</p></ion-label>
+                                            
+                                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                          </ion-item>
+                                          <ion-item no-lines>
+                                               <ion-label><b style="    font-size: 14px;">Geschwindigkeit vermindern <br></b><p>ਇੰਡੀਕੇਟਰ ਲੁਕੇ ਹੋ ਸਕਦੇ ਹਨ , ਜੋਕਿ ਦੇਖਣੇ ਮੁਸ਼ਕਿਲ ਹੋ ਸਕਦੇ ਨੇ ਜਦ ਖੇਤੀ</p></ion-label>
+                                               
+                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                            </ion-item>
+                                  </ion-card-content>
+                                
+                                  
+                                
+                              
+                          </ion-slide>
+                          <ion-slide >
+                                
+                      
+                                      <ion-item no-lines>
+                                        
+                                                <h2 ><b style="    font-size: 14px;">Unver?ndert weiterfahren<br></b><p>ਬੱਸ ਨੂੰ ਇੱਕ ਵਾਹਨ ਪਾਸ ਕਰ ਰਿਹਾ ਹੈ</p></h2>
+                                             
+                    
+                                      </ion-item >
+                                    
+                                      
+                                      <div id="over" style="margin: 5px; ">
+                                          <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                      </div>
+                                    
+                                      <ion-card-content>
+                                          <ion-item no-lines>
+                                               <ion-label><b style="    font-size: 14px;">Wie verhalten Sie sich in dieser Situation?<br></b><p>( ਕੇ ਮੈਨੂੰ ਜੰਕਸ਼ਨ (ਸੜਕਾਂ ਦੇ ਜੋੜ) ਉੱਤੇ ਰੁਕਣਾ ਪਵੇਗਾ )</p></ion-label>
+                                               
+                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                            </ion-item>
+                                            <ion-item no-lines>
+                                                <ion-label><b style="    font-size: 14px;">	Geschwindigkeit vermindern<br></b><p>( ਪੈਦਲ ਸੜਕ ਪਾਰ ਕਰਦੇ ਲੋਕ )</p></ion-label>
+                                                
+                                                <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                              </ion-item>
+                                              <ion-item no-lines>
+                                                   <ion-label><b style="    font-size: 14px;">Bremsbereit sein<br></b><p>( ਤੁਹਾਨੂੰ ਕੀ ਆਸ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ ? )</p></ion-label>
+                                                   
+                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                </ion-item>
+                                      </ion-card-content>
+                                    
+                                      
+                                    
+                                  
+                              </ion-slide>
+                              <ion-slide >
+                                    
+                          
+                                          <ion-item no-lines>
+                                            
+                                                    <h2 ><b style="    font-size: 14px;">Warum m?ssen Sie vor dem Rechtsabbiegen warten?<br></b><p>ਕੇ ਮੈਨੂੰ ਜੰਕਸ਼ਨ (ਸੜਕਾਂ ਦੇ ਜੋੜ) ਉੱਤੇ ਰੁਕਣਾ ਪਵੇਗਾ</p></h2>
+                                                 
+                        
+                                          </ion-item >
+                                        
+                                          
+                                          <div id="over" style="margin: 5px; ">
+                                            <video class="gg" controls>
+                                              <source src="assets/imgs/video.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                            </video>
+                                          </div>
+                                        
+                                          <ion-card-content>
+                                              <ion-item no-lines>
+                                                   <ion-label><b style="    font-size: 14px;">Wegen <br></b><p>( ਪੈਦਲ ਸੜਕ ਪਾਰ ਕਰਦੇ ਲੋਕ )</p></ion-label>
+                                                   
+                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                </ion-item>
+                                                <ion-item no-lines>
+                                                    <ion-label><b style="    font-size: 14px;">	- des Radfahrers <br></b><p>( ਤੁਹਾਨੂੰ ਕੀ ਆਸ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ ? )</p></ion-label>
+                                                    
+                                                    <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                  </ion-item>
+                                                  <ion-item no-lines>
+                                                       <ion-label><b style="    font-size: 14px;">- des Fu?g?ngers<br></b><p>( ਬੱਸ ਨੂੰ ਇੱਕ ਵਾਹਨ ਪਾਸ ਕਰ ਰਿਹਾ ਹੈ )</p></ion-label>
+                                                       
+                                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                    </ion-item>
+                                          </ion-card-content>
+                                        
+                                          
+                                        
+                                      
+                                  </ion-slide>
+                                  <ion-slide >
+                                        
+                              
+                                              <ion-item no-lines>
+                                                
+                                                        <h2 ><b style="    font-size: 14px;">Worauf stellen Sie sich in dieser Situation ein?<br></b><p>ਪੈਦਲ ਸੜਕ ਪਾਰ ਕਰਦੇ ਲੋਕ</p></h2>
+                                                     
+                            
+                                              </ion-item >
+                                            
+                                              
+                                              <div id="over" style="margin: 5px; ">
+                                                  <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                              </div>
+                                            
+                                              <ion-card-content>
+                                                  <ion-item no-lines>
+                                                       <ion-label><b style="    font-size: 14px;">- abbremsen und die Stra?enmitte nicht<br></b><p>( ਰਫ਼ਤਾਰ ਘੱਟ ਕਰੋ )</p></ion-label>
+                                                       
+                                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                    </ion-item>
+                                                    <ion-item no-lines>
+                                                        <ion-label><b style="    font-size: 14px;">Der entgegenkommende Pkw wird jetzt <br></b><p>( ਇੱਥੇ ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ? )</p></ion-label>
+                                                        
+                                                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                      </ion-item>
+                                                      <ion-item no-lines>
+                                                           <ion-label><b style="    font-size: 14px;">- ausscheren und die Stra?enmitte ?<br></b><p>( ਬਰੇਕ ਲਗਾਉਣ ਲਈ ਤਿਆਰ ਰਹੋ )</p></ion-label>
+                                                           
+                                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                        </ion-item>
+                                              </ion-card-content>
+                                            
+                                              
+                                            
+                                          
+                                      </ion-slide>
+                                      <ion-slide >
+                                            
+                                  
+                                                  <ion-item no-lines>
+                                                    
+                                                            <h2 ><b style="    font-size: 14px;">Worauf m?ssen Sie beim Umschalten der Ampel <br></b><p>ਇੱਥੇ ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?</p></h2>
+                                                         
+                                
+                                                  </ion-item >
+                                                
+                                                  
+                                                  <div id="over" style="margin: 5px; ">
+                                                      <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                                  </div>
+                                                
+                                                  <ion-card-content>
+                                                      <ion-item no-lines>
+                                                           <ion-label><b style="    font-size: 14px;">Auf den Fu?g?nger <br></b><p>( ਰਫ਼ਤਾਰ ਘੱਟ ਕਰੋ )</p></ion-label>
+                                                           
+                                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                        </ion-item>
+                                                        <ion-item no-lines>
+                                                            <ion-label><b style="    font-size: 14px;">-	Auf das Motorrad <br></b><p>( ਬਰੇਕ ਲਗਾਉਣ ਲਈ ਤਿਆਰ ਰਹੋ )</p></ion-label>
+                                                            
+                                                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                          </ion-item>
+                                                          <ion-item no-lines>
+                                                               <ion-label><b style="    font-size: 14px;">Auf den Gegenverkehr<br></b><p>( ਪਹਿਲਾਂ ਦੀ ਤਰਾਹ ਗੱਡੀ ਚਲਾਉਣੀ ਜਾਰੀ ਰੱਖੋ )</p></ion-label>
+                                                               
+                                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                            </ion-item>
+                                                  </ion-card-content>
+                                                
+                                                  
+                                                
+                                              
+                                          </ion-slide>
+                                          <ion-slide >
+                                                
+                                      
+                                                      <ion-item no-lines>
+                                                        
+                                                                <h2 ><b style="    font-size: 14px;">Wenn der Radfahrer auf meine Fahrbahn wechselt?<br></b><p>ਬਰੇਕ ਲਗਾਉਣ ਲਈ ਤਿਆਰ ਰਹੋ</p></h2>
+                                                             
+                                    
+                                                      </ion-item >
+                                                    
+                                                      
+                                                      <div id="over" style="margin: 5px; ">
+                                                        <video class="gg" controls>
+                                                          <source src="assets/imgs/video.mp4" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                        </video>
+                                                      </div>
+                                                    
+                                                      <ion-card-content>
+                                                          <ion-item no-lines>
+                                                               <ion-label><b style="    font-size: 14px;">	Wenn der Radfahrer am Ende<br></b><p>( ਪਹਿਲਾਂ ਦੀ ਤਰਾਹ ਗੱਡੀ ਚਲਾਉਣੀ ਜਾਰੀ ਰੱਖੋ )</p></ion-label>
+                                                               
+                                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                            </ion-item>
+                                                            <ion-item no-lines>
+                                                                <ion-label><b style="    font-size: 14px;">Wann kann es hier zu einer gef?<br></b><p>( ਸੱਜੇ ਪਾਸੇ ਮੁੜਨ ਲਈ ਤੁਹਾਨੂੰ ਕਿਉਂ ਉਡੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ? )</p></ion-label>
+                                                                
+                                                                <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                              </ion-item>
+                                                              <ion-item no-lines>
+                                                                   <ion-label><b style="    font-size: 14px;">Wenn ich unvermindert weiterfahre<br></b><p>( ਕਾਰਨ )</p></ion-label>
+                                                                   
+                                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                </ion-item>
+                                                      </ion-card-content>
+                                                    
+                                                      
+                                                    
+                                                  
+                                              </ion-slide>
+                                              <ion-slide >
+                                                    
+                                          
+                                                          <ion-item no-lines>
+                                                            
+                                                                    <h2 ><b style="    font-size: 14px;">Wenn der Radfahrer am Ende des Radweges anh?lt<br></b><p>ਸਾਈਕਲ ਸਵਾਰ</p></h2>
+                                                                 
+                                        
+                                                          </ion-item >
+                                                        
+                                                          
+                                                          <div id="over" style="margin: 5px; ">
+                                                              <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                                          </div>
+                                                        
+                                                          <ion-card-content>
+                                                              <ion-item no-lines>
+                                                                   <ion-label><b style="    font-size: 14px;">Worauf m?ssen Sie hier beim Rechtsabbiegen<br></b><p>( - ਵੈਨ )</p></ion-label>
+                                                                   
+                                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                </ion-item>
+                                                                <ion-item no-lines>
+                                                                    <ion-label><b style="    font-size: 14px;">Auf den Radfahrer <br></b><p>( ਤੁਹਾਨੂੰ ਇਸ ਸੂਰਤ ਵਿਚ ਕੀ ਆਸ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ? )</p></ion-label>
+                                                                    
+                                                                    <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                  </ion-item>
+                                                                  <ion-item no-lines>
+                                                                       <ion-label><b style="    font-size: 14px;">Auf den Gegenverkehr <br></b><p>( ਆਉਂਦੀ ਹੋਈ ਕਾਰ ਹੁੰਨ )</p></ion-label>
+                                                                       
+                                                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                    </ion-item>
+                                                          </ion-card-content>
+                                                        
+                                                          
+                                                        
+                                                      
+                                                  </ion-slide>
+                                                  <ion-slide >
+                                                        
+                                              
+                                                              <ion-item no-lines>
+                                                                
+                                                                        <h2 ><b style="    font-size: 14px;">Wie sollten Sie sich verhalten?<br></b><p>ਬਾਹਰ ਨਿਕਲੇਗੀ ਅਤੇ ਸੜਕ ਦਾ ਮੱਧ (ਸੈਂਟਰ) ਕਰਾਸ ਕਰੇਗੀ</p></h2>
+                                                                     
+                                                              </ion-item >
+                                                            
+                                                              
+                                                              <div id="over" style="margin: 5px; ">
+                                                                <video class="gg" controls>
+                                                                  <source src="assets/imgs/video.mp4" type="video/mp4">
+                                                                Your browser does not support the video tag.
+                                                                </video>
+                                                              </div>
+                                                            
+                                                              <ion-card-content>
+                                                                  <ion-item no-lines>
+                                                                       <ion-label><b style="    font-size: 14px;">Ich halte an <br></b><p>- ਓਵਰਟੇਕ ਕਰੇਗੀ ਸੜਕ ਦਾ ਮੱਧ (ਸੈਂਟਰ)</p></ion-label>
+                                                                       
+                                                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                    </ion-item>
+                                                                    <ion-item no-lines>
+                                                                        <ion-label><b style="    font-size: 14px;">Ich wechsle jetzt auf den mittleren Fahrstreifen <br></b><p>( ਤੁਸੀਂ ਕਿਸ ਚੀਜ਼ ਵਾਲ ਧਿਆਨ ਦੇਣਾ ਹੈ ਜਦ ਟਰੈਫ਼ਿਕ ਲਾਈਟ ਹਰੀ ਹੁੰਦੀ ਹੈ? </p></ion-label>
+                                                                        
+                                                                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                      </ion-item>
+                                                                      <ion-item no-lines>
+                                                                           <ion-label><b style="    font-size: 14px;">Ich fahre vorsichtig rechts am Lkw vorbei <br></b><p>( ਪੈਦਲਾਂ ਲਈ )</p></ion-label>
+                                                                           
+                                                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                        </ion-item>
+                                                              </ion-card-content>
+                                                            
+                                                              
+                                                            
+                                                          
+                                                      </ion-slide>
+                                                      <ion-slide >
+                                                            
+                                                  
+                                                                  <ion-item no-lines>
+                                                                    
+                                                                            <h2 ><b style="    font-size: 14px;">Beim Abbiegen kann das Anbauger?t ausschwenken<br></b><p>ਆਉਣ ਵਾਲੇ ਟਰੈਫ਼ਿਕ ਲਈ</p></h2>
+                                                                         
+                                                
+                                                                  </ion-item >
+                                                                
+                                                                  
+                                                                  <div id="over" style="margin: 5px; ">
+                                                                      <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                                                  </div>
+                                                                
+                                                                  <ion-card-content>
+                                                                      <ion-item no-lines>
+                                                                           <ion-label><b style="    font-size: 14px;">Zugmaschinen k?nnen wegen Ihrer<br></b><p>( ਇੱਥੇ ਕਦ ਖ਼ਤਰਨਾਕ ਸਥਿਤੀ ਪੈਦਾ ਹੋ ਸਕਦੀ ਹੈ? )</p></ion-label>
+                                                                           
+                                                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                        </ion-item>
+                                                                        <ion-item no-lines>
+                                                                            <ion-label><b style="    font-size: 14px;">Die hintere Beleuchtung kann stark<br></b><p>( ਜੇਕਰ ਮੈਂ ਉਸੇ ਹੀ ਰਫ਼ਤਾਰ ਨੂੰ ਜਾਰੀ ਰੱਖਦਾ ਹਾਂ )</p></ion-label>
+                                                                            
+                                                                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                          </ion-item>
+                                                                          <ion-item no-lines>
+                                                                               <ion-label><b style="    font-size: 14px;">Womit m?ssen Sie hinter dieser Stra?<br></b><p>( ਜੇਕਰ ਸਾਈਕਲ ਸਵਾਰ ਮੇਰੀ ਲੇਨ ਵਿੱਚ ਆ ਜਾਵੇ )</p></ion-label>
+                                                                               
+                                                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                            </ion-item>
+                                                                  </ion-card-content>
+                                                                
+                                                                  
+                                                                
+                                                              
+                                                          </ion-slide>
+                                                          <ion-slide >
+                                                                
+                                                      
+                                                                      <ion-item no-lines>
+                                                                        
+                                                                                <h2 ><b style="    font-size: 14px;">Es kann ein Fahrzeug entgegenkommen, das meinen<br></b><p>ਇੱਥੇ ਕਦ ਖ਼ਤਰਨਾਕ ਸਥਿਤੀ ਪੈਦਾ ਹੋ ਸਕਦੀ ਹੈ?</p></h2>
+                                                                             
+                                                    
+                                                                      </ion-item >
+                                                                    
+                                                                      
+                                                                      <div id="over" style="margin: 5px; ">
+                                                                        <video class="gg" controls>
+                                                                          <source src="assets/imgs/video.mp4" type="video/mp4">
+                                                                        Your browser does not support the video tag.
+                                                                        </video>
+                                                                      </div>
+                                                                    
+                                                                      <ion-card-content>
+                                                                          <ion-item no-lines>
+                                                                               <ion-label><b style="    font-size: 14px;">Auf meinem Fahrstreifen kann sich ein<br></b><p>( ਜੇਕਰ ਮੈਂ ਉਸੇ ਹੀ ਰਫ਼ਤਾਰ ਨੂੰ ਜਾਰੀ ਰੱਖਦਾ ਹਾਂ )</p></ion-label>
+                                                                               
+                                                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                            </ion-item>
+                                                                            <ion-item no-lines>
+                                                                                <ion-label><b style="    font-size: 14px;">Womit m?ssen Sie hinter <br></b><p>( ਜੇਕਰ ਸਾਈਕਲ ਸਵਾਰ ਮੇਰੀ ਲੇਨ ਵਿੱਚ ਆ ਜਾਵੇ )</p></ion-label>
+                                                                                
+                                                                                <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                              </ion-item>
+                                                                              <ion-item no-lines>
+                                                                                   <ion-label><b style="    font-size: 14px;">Dort kann ein Fahrzeug liegen<br></b><p>( ਜੇਕਰ ਸਾਈਕਲ ਸਵਾਰ ਸਾਈਕਲ ਮਾਰਗ ਦੇ ਅੰਤ ਤੇ ਰੁਕ ਜਾਵੇ )</p></ion-label>
+                                                                                   
+                                                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                </ion-item>
+                                                                      </ion-card-content>
+                                                                    
+                                                                      
+                                                                    
+                                                                  
+                                                              </ion-slide>
+                                                              <ion-slide >
+                                                                    
+                                                          
+                                                                          <ion-item no-lines>
+                                                                            
+                                                                                    <h2 ><b style="    font-size: 14px;">Auf meinem Fahrstreifen kann sich ein langsam?<br></b><p>ਜੇਕਰ ਮੈਂ ਉਸੇ ਹੀ ਰਫ਼ਤਾਰ ਨੂੰ ਜਾਰੀ ਰੱਖਦਾ ਹਾਂ</p></h2>
+                                                                                 
+                                                        
+                                                                          </ion-item >
+                                                                        
+                                                                          
+                                                                          <div id="over" style="margin: 5px; ">
+                                                                              <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                                                          </div>
+                                                                        
+                                                                          <ion-card-content>
+                                                                              <ion-item no-lines>
+                                                                                   <ion-label><b style="    font-size: 14px;">	Womit m?ssen Sie hinter dieser<br></b><p>( ਜੇਕਰ ਸਾਈਕਲ ਸਵਾਰ ਮੇਰੀ ਲੇਨ ਵਿੱਚ ਆ ਜਾਵੇ )</p></ion-label>
+                                                                                   
+                                                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                </ion-item>
+                                                                                <ion-item no-lines>
+                                                                                    <ion-label><b style="    font-size: 14px;">Dort kann ein Fahrzeug liegen<br></b><p>( ਜੇਕਰ ਸਾਈਕਲ ਸਵਾਰ ਸਾਈਕਲ ਮਾਰਗ ਦੇ ਅੰਤ ਤੇ ਰੁਕ ਜਾਵੇ )</p></ion-label>
+                                                                                    
+                                                                                    <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                  </ion-item>
+                                                                                  <ion-item no-lines>
+                                                                                       <ion-label><b style="    font-size: 14px;">Es kann ein Fahrzeug entgegenkommen<br></b><p>( ਤੁਸੀਂ ਕਿਸ ਚੀਜ਼ ਵਾਲ ਧਿਆਨ ਦੇਣਾ ਹੈ ਜਦ ਤੁਸੀਂ ਸੱਜੇ ਮੁੜ ਰਹੇ ਹੋ )</p></ion-label>
+                                                                                       
+                                                                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                    </ion-item>
+                                                                          </ion-card-content>
+                                                                        
+                                                                          
+                                                                        
+                                                                      
+                                                                  </ion-slide>
+                                                                  <ion-slide >
+                                                                        
+                                                              
+                                                                              <ion-item no-lines>
+                                                                                
+                                                                                        <h2 ><b style="    font-size: 14px;">Womit m?ssen Sie hinter dieser Stra?enkuppe rechnen?<br></b><p>ਆਉਣ ਵਾਲੇ ਟਰੈਫ਼ਿਕ ਲਈ</p></h2>
+                                                                                     
+                                                            
+                                                                              </ion-item >
+                                                                            
+                                                                              
+                                                                              <div id="over" style="margin: 5px; ">
+                                                                                  <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                                                              </div>
+                                                                            
+                                                                              <ion-card-content>
+                                                                                  <ion-item no-lines>
+                                                                                       <ion-label><b style="    font-size: 14px;">Dort kann ein Fahrzeug liegen geblieben sein<br></b><p>( ਮੋਟਰ ਸਾਈਕਲ ਸਵਾਰ ਲਈ )</p></ion-label>
+                                                                                       
+                                                                                      <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                    </ion-item>
+                                                                                    <ion-item no-lines>
+                                                                                        <ion-label><b style="    font-size: 14px;">Es kann ein Fahrzeug entgegenkommen<br></b><p>( ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ? )</p></ion-label>
+                                                                                        
+                                                                                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                      </ion-item>
+                                                                                      <ion-item no-lines>
+                                                                                           <ion-label><b style="    font-size: 14px;">Auf meinem Fahrstreifen kann sich ein langsam<br></b><p>( ਮੈ ਰੁਕ ਜਾਵਾਂਗਾ )</p></ion-label>
+                                                                                           
+                                                                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                        </ion-item>
+                                                                              </ion-card-content>
+                                                                            
+                                                                              
+                                                                            
+                                                                          
+                                                                      </ion-slide>
+                                                                      <ion-slide >
+                                                                            
+                                                                  
+                                                                                  <ion-item no-lines>
+                                                                                    
+                                                                                            <h2 ><b style="    font-size: 14px;">Bremsen und nach rechts ausweichen?<br></b><p>ਮੈਂ ਧਿਆਨ ਨਾਲ ਟਰੱਕ ਦੇ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਲੰਗ ਜਾਵਾਂਗਾ</p></h2>
+                                                                                         
+                                                                
+                                                                                  </ion-item >
+                                                                                
+                                                                                  
+                                                                                  <div id="over" style="margin: 5px; ">
+                                                                                    <video class="gg" controls>
+                                                                                      <source src="assets/imgs/video.mp4" type="video/mp4">
+                                                                                    Your browser does not support the video tag.
+                                                                                    </video>
+                                                                                  </div>
+                                                                                
+                                                                                  <ion-card-content>
+                                                                                      <ion-item no-lines>
+                                                                                           <ion-label><b style="    font-size: 14px;">Unver?ndert weiterfahren, damit der Lkw<br></b><p>ਤੁਸੀਂ ਇੱਕ ਫਾਰਮ ਟਰੈਕਟਰ ਨੂੰ ਓਵਰਟੇਕ ਕਰਨਾ</p></ion-label>
+                                                                                           
+                                                                                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                        </ion-item>
+                                                                                        <ion-item no-lines>
+                                                                                            <ion-label><b style="    font-size: 14px;">Womit m?ssen Sie rechnen? <br></b><p>ਟਰੈਕਟਰ ਜੱਦ ਮੁੜਨ ਲੱਗੇਗਾ ਹੋ ਸਕਦਾ ਹੈ ਉਸ ਦੇ ਨਾਲ ਜੁੜੀਆਂ</p></ion-label>
+                                                                                            
+                                                                                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                          </ion-item>
+                                                                                          <ion-item no-lines>
+                                                                                               <ion-label><b style="    font-size: 14px;">Mit einer gef?hrlichen Linkskurve<br></b><p>ਘੱਟ ਗਤੀ ਦੇ ਕਾਰਨ ਫਾਰਮ ਟਰੈਕਟਰ ਹਮੇਸ਼ਾ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ </p></ion-label>
+                                                                                               
+                                                                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                            </ion-item>
+                                                                                  </ion-card-content>
+                                                                                
+                                                                                  
+                                                                                
+                                                                              
+                                                                          </ion-slide>
+                                                                          <ion-slide >
+                                                                                
+                                                                      
+                                                                                      <ion-item no-lines>
+                                                                                        
+                                                                                                <h2 ><b style="    font-size: 14px;">Mit Querverkehr vor der Kurve?<br></b><p>ਤੁਹਾਨੂੰ ਸੜਕ ਦੇ ਉੱਤੇ ਆਈ ਉਚਾਈ ਦੇ ਮਗਰ </p></h2>
+                                                                                             
+                                                                    
+                                                                                      </ion-item >
+                                                                                    
+                                                                                      
+                                                                                      <div id="over" style="margin: 5px; ">
+                                                                                          <img  class="gg"    src="assets/imgs/stu_standart.png">
+                                                                                      </div>
+                                                                                    
+                                                                                      <ion-card-content>
+                                                                                          <ion-item no-lines>
+                                                                                               <ion-label><b style="    font-size: 14px;">Womit m?ssen Sie rechnen? <br></b><p>( ਉਚਾਈ ਤੋ ਬਾਦ ਕੋਈ ਗੱਡੀ ਖਲੋਤੀ ਹੋਵੇ )</p></ion-label>
+                                                                                               
+                                                                                              <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                            </ion-item>
+                                                                                            <ion-item no-lines>
+                                                                                                <ion-label><b style="    font-size: 14px;">Mit einer gef?hrlichen Linkskurve <br></b><p> ਹੋ ਸਕਦਾ ਹੈ ਕੇ ਉਚਾਈ ਤੋ ਬਾਦ ਕੋਈ ਗੱਡੀ ਮੇਰੀ ਸਾਈਡ ਤੇ ਆ ਰਹੇ ਹੋਵੇ )</p></ion-label>
+                                                                                                
+                                                                                                <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                              </ion-item>
+                                                                                              <ion-item no-lines>
+                                                                                                   <ion-label><b style="    font-size: 14px;">Mit einem hinter der Kuppe liegen<br></b><p>ਹੋ ਸਕਦਾ ਹੈ ਕੋਈ ਹੋਲੀ ਚੱਲਣ ਵਾਲੀ ਗੱਡੀ ਉਚਾਈ ਤੋ ਬਾਦ ਮੇਰੀ ਸਾਈਡ </p></ion-label>
+                                                                                                   
+                                                                                                  <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                                                                                                </ion-item>
+                                                                                      </ion-card-content>
+                                                                                    
+                                                                                      
+                                                                                    
+                                                                                  
+                                                                              </ion-slide>
+
+
+        <ion-slide >
+          
+
+                <ion-item no-lines>
+                  
+                        <h2 ><b style="    font-size: 14px;">Womit m?ssen Sie rechnen??<br></b><p>ਉਚਾਈ ਤੋ ਬਾਦ ਕੋਈ ਗੱਡੀ ਖਲੋਤੀ ਹੋਵੇ</p></h2>
+                     
+
+                </ion-item >
+              
+                
+                <div id="over" style="margin: 5px; ">
+                  <video class="gg" controls>
+                    <source src="assets/imgs/video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                </div>
+              
+                <ion-card-content>
+                    <ion-item no-lines>
+                         <ion-label><b style="    font-size: 14px;">Mit einer gef?hrlichen Linkskurve<br></b><p>( ਹੋ ਸਕਦਾ ਹੈ ਕੇ ਉਚਾਈ ਤੋ ਬਾਦ ਕੋਈ ਗੱਡੀ ਮੇਰੀ ਸਾਈਡ ਤੇ ਆ ਰਹੇ ਹੋਵੇ )</p></ion-label>
+                         
+                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                      </ion-item>
+                      <ion-item no-lines>
+                          <ion-label><b style="    font-size: 14px;">Mit einem hinter der Kuppe<br></b><p>ਹੋ ਸਕਦਾ ਹੈ ਕੋਈ ਹੋਲੀ ਚੱਲਣ ਵਾਲੀ ਗੱਡੀ ਉਚਾਈ ਤੋ</p></ion-label>
+                          
+                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                        </ion-item>
+                        <ion-item no-lines>
+                             <ion-label><b style="    font-size: 14px;">	Mit Querverkehr vor der Kurve <br></b><p>ਤੁਹਾਨੂੰ ਸੜਕ ਦੇ ਉੱਤੇ ਆਈ ਉਚਾਈ ਦੇ ਮਗਰ ਕੀ</p></ion-label>
+                             
+                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                          </ion-item>
+                </ion-card-content>
+              
+                
+              
+            
+        </ion-slide>
+      
+        <ion-slide >
+          
+
+                <ion-item no-lines>
+                  
+                        <h2 ><b style="    font-size: 14px;">Sie haben an Ihrer Zugmaschine einen weit nach<br></b><p>ਔਟੋਬਾਨ ਸਿਰਫ ਅਗਲੇ ਕਾਰ ਗਰਾਜ ਤੱਕ ਦਾ ਸਫ਼ਰ</p></h2>
+                     
+  
+                </ion-item>
+              
+                <div id="over" style="margin: 5px; ">
+                    <img  class="gg"    src="assets/imgs/stu_standart.png">
+                </div>
+                <ion-card-content>
+                    <ion-item no-lines>
+                         <ion-label><b style="    font-size: 14px;">Nachfolgende Fahrzeuge, die <br></b><p>ਲਾਇਟਾਂ ਮਾਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ ਆਪਣੇ ਓਵਰਟੇਕ </p></ion-label>
+                         
+                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                      </ion-item>
+                      <ion-item no-lines>
+                          <ion-label><b style="    font-size: 14px;">Rechts parkende Fahrzeuge <br></b><p>( ਸ਼ਹਿਰ ਦੇ ਅੰਦਰ ਹਨੇਰੇ ਵਿਚ )</p></ion-label>
+                          
+                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                        </ion-item>
+                        <ion-item no-lines>
+                             <ion-label><b style="    font-size: 14px;">Fahrzeuge, die sich links neben Ihnen<br></b><p>( ਸ਼ਹਿਰ ਤੋਂ ਬਾਹਰ ਹਨੇਰੇ ਵਿਚ )</p></ion-label>
+                             
+                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                          </ion-item>
+                </ion-card-content>
+              
+                
+              
+            
+        </ion-slide>
+      
+        <ion-slide >
+          
+
+                <ion-item no-lines>
+                  
+                        <h2 ><b style="    font-size: 14px;">Fahrzeuge, die sich hinter mir eingeordnet haben?<br></b><p>ਤੁਸੀਂ ਕਿੱਦਾਂ ਦੱਸ ਸਕਦੇ ਹੋਕਿ ਤੁਹਾਡੀ ਗੱਡੀ ਦੀਆਂ ਧੁੰਦ ਵਾਲਿਆਂ </p></h2>
+                     
+  
+                </ion-item>
+              
+                <div id="over" style="margin: 5px; ">
+                  <video class="gg" controls>
+                    <source src="assets/imgs/video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                </div>
+              
+                <ion-card-content>
+                    <ion-item no-lines>
+                         <ion-label><b style="    font-size: 14px;">Fahrzeuge, die sich rechts neben<br></b><p>( ਅੰਬਰ ਰੰਗ ਦੀ ਲਾਇਟ ਤੋਂ )</p></ion-label>
+                         
+                        <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                      </ion-item>
+                      <ion-item no-lines>
+                          <ion-label><b style="    font-size: 14px;">Sie m?chten mit einer landwirtschaftlichen<br></b><p>( ਨੀਲੇ ਰੰਗ ਦੀ ਲਾਇਟ ਤੋਂ )</p></ion-label>
+                          
+                          <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                        </ion-item>
+                        <ion-item no-lines>
+                             <ion-label><b style="    font-size: 14px;">Dass die Anh?nger beim Abbiegen Personen<br></b><p>( ਲਾਲ ਰੰਗ ਦੀ ਲਾਇਟ ਤੋਂ )</p></ion-label>
+                             
+                            <ion-checkbox color="dark" (ionChange)="updateCucumber(item)" checked="false"></ion-checkbox>
+                          </ion-item>
+                </ion-card-content>
+              
+                
+              
+            
+        </ion-slide>
+      
+      </ion-slides>
+
+     
+
+      <ion-footer align-title="center">
+          <ion-item no-lines text-right >
+
+ 
+              <img  src="assets/imgs/warnung_klein.gif"/>
+
+
+              <ion-card-header style="padding-left: 0px;" item-end class="custom_card_header">
+               
+            
+                  tasks left: {{all}}
+          
+                </ion-card-header>
+        
+               
+                 
+                  
+                
+              </ion-item>
+
+       
+
+          <ion-grid style="margin-bottom: 15px;">
+              <ion-row>
+                
+               
+                <ion-col  >
+                  
+                    
+                    <ion-grid >
+                      <ion-row style="margin-left: 100px;">
+                        <ion-col>
+                          <div>
+                            
+
+                                <button ion-button (click)=" openModal()" color="danger"> 
+                              
+                                   
+                                  Submit
+                                  </button>
+
+                          </div>
+                        </ion-col>
+                        <ion-col>
+                          <div>
+                                  <button ion-button (click)=" prev()" style="background-color: #FFA500;" > 
+                              
+                                   
+                                          
+                                    Previous
+                                          
+                                        </button>
+                          </div>
+                        </ion-col>
+                        <ion-col>
+                          <div>
+                                  <button ion-button  (click)=" next()" style="background-color: #008000;"> 
+                              
+                                   
+                                          
+                                   Next
+                                        </button>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                    
+
+                </ion-col>
+
+               
+
+
+
+              </ion-row>
+              
+            </ion-grid>
+
+          <ion-grid text-center >
+              <ion-row >
+                      <ion-row>
+                              <ion-col size="3">
+                                <div>
+                                      <button class="button_basic" (click)='openFilters2()' [ngStyle]="{'background-color': buttonColor, 'color': colorString}" style="margin: 0px;width: 60px;    width: 150px;">Basic Material</button>
+                                            
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+                                      <button class="button_basic" (click)='openFilters()' [ngStyle]="{'background-color': buttonColor2, 'color': colorString2}"  style="margin: 0px;width: 40px;">B</button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                </ion-row>
+
+
+                <ion-row style="background-color: #222d32">
+                  <ion-col  style="    margin-top: 5px;">
+                    <div>
+                      <ion-row>
+                          <ion-col size="3">
+                            <div>
+                                  <button *ngIf="gig == '1' && backQuest1 == '0'" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          1
+                                          
+                                        </button>
+
+                                        <button *ngIf="gig != '1'  && backQuest1 == '0'"  (click)="setNum(1)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;" > 
+                              
+                                   
+                                          
+                                          1
+                                          
+                                        </button>
+
+                                        <button *ngIf="gig == '1' && backQuest1 == '1'" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 3px solid ghostwhite;" > 
+                                    
+                                         
+                                                
+                                                1
+                                                
+                                              </button>
+    
+                                              <button *ngIf="gig != '1'  && backQuest1 == '1'"  (click)="setNum(1)" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 2px solid ghostwhite;" > 
+                                    
+                                         
+                                                
+                                                1
+                                                
+                                              </button>
+    
+
+                                        
+                            </div>
+                          </ion-col>
+                          <ion-col size="3" offset="3">
+                            <div>
+
+                                  <button *ngIf="gig == '2' && backQuest2 == '0' " style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          2
+                                          
+                                        </button>
+
+                                  <button *ngIf="gig != '2' && backQuest2 == '0'" (click)="setNum(2)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          2
+                                          
+                                        </button>
+
+                                        
+                                  <button *ngIf="gig == '2' && backQuest2 == '1' " style="background-color: #222d32;;
+                                  width: 33px;
+                                  padding: 5px;
+                                  color: white;
+                                  margin-bottom: 5px;
+                                  border: 3px solid ghostwhite;" > 
+                              
+                                   
+                                          
+                                          2
+                                          
+                                        </button>
+
+                                  <button *ngIf="gig != '2' && backQuest2 == '1'" (click)="setNum(2)" style="background-color: #222d32;;
+                                  width: 33px;
+                                  padding: 5px;
+                                  color: white;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          2
+                                          
+                                        </button>
+                            </div>
+                          </ion-col>
+                        </ion-row>
+                    </div>
+                  </ion-col>
+                  <ion-col style="    margin-top: 5px;">
+                    <div>
+                      <ion-row>
+                          <ion-col size="3">
+                            <div>
+
+                              
+                                  <button *ngIf="gig == '3' && backQuest3 == '0'" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          3
+                                          
+                                        </button>
+
+                                  <button *ngIf="gig != '3' && backQuest3 == '0'"  (click)="setNum(3)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          3
+                                          
+                                        </button>
+
+
+                                        <button *ngIf="gig == '3' && backQuest3 == '1'" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 3px solid ghostwhite;" > 
+                                    
+                                         
+                                                
+                                                3
+                                                
+                                              </button>
+    
+                                        <button *ngIf="gig != '3' && backQuest3 == '1'"  (click)="setNum(3)" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 2px solid ghostwhite;
+                                        " > 
+                                    
+                                         
+                                                
+                                                3
+                                                
+                                              </button>
+                            </div>
+                          </ion-col>
+                          <ion-col size="3" offset="3">
+                            <div>
+
+                                  <button *ngIf="gig == '4'  && backQuest4 == '0' "  style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          4
+                                          
+                                        </button>
+
+                                  <button *ngIf="gig != '4'  && backQuest4 == '0'"  (click)="setNum(4)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          4
+                                          
+                                        </button>
+
+                                        <button *ngIf="gig == '4'  && backQuest4 == '1' "  style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        margin-bottom: 5px;
+                                        color: white;
+                                        border: 3px solid ghostwhite;" > 
+                                    
+                                         
+                                                
+                                                4
+                                                
+                                              </button>
+    
+                                        <button *ngIf="gig != '4'  && backQuest4 == '1'"  (click)="setNum(4)" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        margin-bottom: 5px;
+                                        color: white;
+                                        border: 2px solid ghostwhite;
+                                        " > 
+                                    
+                                         
+                                                
+                                                4
+                                                
+                                              </button>
+
+                            </div>
+                          </ion-col>
+                        </ion-row>
+                    </div>
+                  </ion-col>
+                  <ion-col size="auto" style="    margin-top: 5px;">
+                    <div>
+                      <ion-row>
+                          <ion-col size="3">
+                            <div>
+
+                                  <button *ngIf="gig == '5' && backQuest5 == '0'" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          5
+                                          
+                                        </button>
+
+                                  <button  *ngIf="gig != '5'  && backQuest5 == '0'" (click)="setNum(5)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          5
+                                          
+                                        </button>
+
+
+                                        <button *ngIf="gig == '5' && backQuest5 == '1'" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 3px solid ghostwhite;" > 
+                                    
+                                         
+                                                
+                                                5
+                                                
+                                              </button>
+    
+                                        <button  *ngIf="gig != '5'  && backQuest5 == '1'" (click)="setNum(5)" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 2px solid ghostwhite;
+                                        " > 
+                                    
+                                         
+                                                
+                                                5
+                                                
+                                              </button>
+
+                            </div>
+                          </ion-col>
+                          <ion-col size="3" offset="3">
+                            <div>
+
+                                  <button *ngIf="gig == '6' && backQuest6 == '0'" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          6
+                                          
+                                        </button>
+
+                                  <button *ngIf="gig != '6' && backQuest6 == '0'"  (click)="setNum(6)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          6
+                                          
+                                        </button>
+
+
+                                        <button *ngIf="gig == '6' && backQuest6 == '1'" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: ghostwhite;
+                                        margin-bottom: 5px;
+                                        border: 3px solid ghostwhite;" > 
+                                    
+                                         
+                                                
+                                                6
+                                                
+                                              </button>
+    
+                                        <button *ngIf="gig != '6' && backQuest6 == '1'"  (click)="setNum(6)" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 2px solid ghostwhite;
+                                        " > 
+                                    
+                                         
+                                                
+                                                6
+                                                
+                                              </button>
+                            </div>
+                          </ion-col>
+                        </ion-row>
+                    </div>
+                  </ion-col>
+                  <ion-col style="    margin-top: 5px;">
+                    <div>
+                      <ion-row>
+                          <ion-col size="3">
+                            <div>
+
+                                  <button *ngIf="gig == '7' && backQuest7 == '0'" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          7
+                                          
+                                        </button>
+
+                                  <button  *ngIf="gig != '7' && backQuest7 == '0'" (click)="setNum(7)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                                   
+                                          
+                                          7
+                                          
+                                        </button>
+
+
+                                        <button *ngIf="gig == '7' && backQuest7 == '1'" style="background-color: #222d32;
+                                  width: 33px;
+                                  padding: 5px;
+                                  color: white;
+                                  margin-bottom: 5px;
+                                  border: 3px solid white;" > 
+                              
+                                   
+                                          
+                                          7
+                                          
+                                        </button>
+
+                                  <button  *ngIf="gig != '7' && backQuest7 == '1'" (click)="setNum(7)" style="background-color: #222d32;
+                                  width: 33px;
+                                  padding: 5px;
+                                  color: white;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                                   
+                                          
+                                          7
+                                          
+                                        </button>
+                            </div>
+                          </ion-col>
+                          <ion-col size="3" offset="3">
+                            <div>
+
+                                  <button *ngIf="gig == '8'  && backQuest8 == '0'" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 3px solid black;" > 
+                              
+                                   
+                                          
+                                          8
+                                          
+                                        </button>
+
+                                  <button  *ngIf="gig != '8'  && backQuest8 == '0'" (click)="setNum(8)" style="background-color: ghostwhite;
+                                  width: 33px;
+                                  padding: 5px;
+                                  margin-bottom: 5px;
+                                  border: 2px solid ghostwhite;
+                                  " > 
+                              
+                                   
+                                          
+                                          8
+                                          
+                                        </button>
+
+                                        <button *ngIf="gig == '8'  && backQuest8 == '1'" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        margin-bottom: 5px;
+                                        color: white;
+                                        border: 3px solid white;" > 
+                                    
+                                         
+                                                
+                                                8
+                                                
+                                              </button>
+    
+                                        <button  *ngIf="gig != '8'  && backQuest8 == '1'" (click)="setNum(8)" style="background-color: #222d32;
+                                        width: 33px;
+                                        padding: 5px;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                        border: 2px solid ghostwhite;
+                                        " > 
+                                    
+                                         
+                                                
+                                                8
+                                                
+                                              </button>
+                            </div>
+                          </ion-col>
+                        </ion-row>
+                    </div>
+                  </ion-col>
+                </ion-row> <!--tyt-->
+
+                <ion-row style="background-color: #222d32">
+                      <ion-col  style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+
+                                      <button *ngIf="gig == '9' && backQuest9 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              9
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '9' && backQuest9 == '0'" (click)="setNum(9)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;" > 
+                                  
+                                       
+                                              
+                                              9
+                                              
+                                            </button>
+
+                                            <button *ngIf="gig == '9' && backQuest9 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    9
+                                                    
+                                                  </button>
+    
+                                            <button  *ngIf="gig != '9' && backQuest9 == '1'" (click)="setNum(9)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            color: white;
+                                            margin-bottom: 5px;
+                                            border: 2px solid ghostwhite;" > 
+                                        
+                                             
+                                                    
+                                                    9
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+
+                                      <button *ngIf="gig == '10' && backQuest10 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              10
+                                              
+                                            </button>
+
+                                      <button *ngIf="gig != '10' && backQuest10 == '0'"  (click)="setNum(10)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              10
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '10' && backQuest10 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    10
+                                                    
+                                                  </button>
+    
+                                            <button *ngIf="gig != '10' && backQuest10 == '1'"  (click)="setNum(10)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 
+                                        
+                                             
+                                                    
+                                                    10
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                      <ion-col style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+
+                                      <button *ngIf="gig == '11' && backQuest11 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              11
+                                              
+                                            </button>
+
+
+                                      <button  *ngIf="gig != '11' && backQuest11 == '0'" (click)="setNum(11)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              11
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '11' && backQuest11 == '1'" style="background-color: #222d32;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      color: white;
+                                      border: 3px solid white;" > 
+                                  
+                                       
+                                              
+                                              11
+                                              
+                                            </button>
+
+
+                                      <button  *ngIf="gig != '11' && backQuest11 == '1'" (click)="setNum(11)" style="background-color: #222d32;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      color: white;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              11
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+
+                                      <button *ngIf="gig == '12' && backQuest12 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              12
+                                              
+                                            </button>
+
+
+                                      <button *ngIf="gig != '12' && backQuest12 == '0'" (click)="setNum(12)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              12
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '12' && backQuest12 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    12
+                                                    
+                                                  </button>
+    
+    
+                                            <button *ngIf="gig != '12' && backQuest12 == '1'" (click)="setNum(12)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 
+                                        
+                                             
+                                                    
+                                                    12
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                      <ion-col size="auto" style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+
+                                      <button *ngIf="gig == '13' && backQuest13 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              13
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '13' && backQuest13 == '0'" (click)="setNum(13)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              13
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '13' && backQuest13 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    13
+                                                    
+                                                  </button>
+    
+                                            <button  *ngIf="gig != '13' && backQuest13 == '1'" (click)="setNum(13)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 
+                                        
+                                             
+                                                    
+                                                    13
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+
+                                      <button *ngIf="gig == '14' && backQuest14 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              14
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '14' && backQuest14 == '0'" (click)="setNum(14)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                             14
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '14' && backQuest14 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    14
+                                                    
+                                                  </button>
+     
+                                            <button  *ngIf="gig != '14' && backQuest14 == '1'" (click)="setNum(14)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 
+                                        
+                                             
+                                                    
+                                                   14
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                      <ion-col style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+
+                                      <button *ngIf="gig == '15' && backQuest15 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              15
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '15' && backQuest15 == '0'" (click)="setNum(15)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                       
+                                              
+                                              15
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '15' && backQuest15 == '1'" style="background-color: #222d32;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      color: white;
+                                      border: 3px solid white;" > 
+                                  
+                                       
+                                              
+                                              15
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '15' && backQuest15 == '1'" (click)="setNum(15)" style="background-color: #222d32;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      color: white;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                       
+                                              
+                                              15
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+
+                                      <button *ngIf="gig == '16' && backQuest16 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              16
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '16' && backQuest16 == '0'" (click)="setNum(16)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              16
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '16' && backQuest16 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    16
+                                                    
+                                                  </button>
+    
+                                            <button  *ngIf="gig != '16' && backQuest16 == '1'" (click)="setNum(16)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 
+                                        
+                                             
+                                                    
+                                                    16
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                    </ion-row> <!--tyt-->
+
+
+                    
+                <ion-row style="background-color: #222d32">
+                      <ion-col  style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+
+                                      <button *ngIf="gig == '17' && backQuest17 == '0'"  style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              17
+                                              
+                                            </button>
+
+
+                                      <button *ngIf="gig != '17' && backQuest17 == '0'" (click)="setNum(17)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;" > 
+                                  
+                                       
+                                              
+                                              17
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '17' && backQuest17 == '1'"  style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    17
+                                                    
+                                                  </button>
+    
+    
+                                            <button *ngIf="gig != '17' && backQuest17 == '1'" (click)="setNum(17)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;" > 
+                                        
+                                             
+                                                    
+                                                    17
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+
+                                      <button *ngIf="gig == '18' && backQuest18 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              18
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '18' && backQuest18 == '0'" (click)="setNum(18)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              18
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '18' && backQuest18 == '1'" style="background-color: #222d32;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      color: white;
+                                      border: 3px solid white;" > 
+                                  
+                                       
+                                              
+                                              18
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '18' && backQuest18 == '1'" (click)="setNum(18)" style="background-color: #222d32;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      color: white;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              18
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                      <ion-col style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+
+                                      <button *ngIf="gig == '19' && backQuest19 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              19
+                                              
+                                            </button>
+
+                                      <button *ngIf="gig != '19' && backQuest19 == '0'" (click)="setNum(19)"  style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              19
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '19' && backQuest19 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    19
+                                                    
+                                                  </button>
+    
+                                            <button *ngIf="gig != '19' && backQuest19 == '1'" (click)="setNum(19)"  style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 
+                                        
+                                             
+                                                    
+                                                    19
+                                                    
+                                                  </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+
+                                      <button *ngIf="gig == '20' && backQuest20 == '0'" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 3px solid black;" > 
+                                  
+                                       
+                                              
+                                              20
+                                              
+                                            </button>
+
+                                      <button  *ngIf="gig != '20' && backQuest20 == '0'"  (click)="setNum(20)" style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      " > 
+                                  
+                                       
+                                              
+                                              20
+                                              
+                                            </button>
+
+
+                                            <button *ngIf="gig == '20' && backQuest20 == '1'" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 3px solid white;" > 
+                                        
+                                             
+                                                    
+                                                    20
+                                                    
+                                                  </button>
+    
+                                            <button  *ngIf="gig != '20' && backQuest20 == '1'"  (click)="setNum(20)" style="background-color: #222d32;
+                                            width: 33px;
+                                            padding: 5px;
+                                            margin-bottom: 5px;
+                                            color: white;
+                                            border: 2px solid ghostwhite;
+                                            " > 20                                                      
+                                                  </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                      <ion-col size="auto" style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+                                      <button  style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      visibility: hidden;
+                                      " > 
+                                  
+                                       
+                                              
+                                              13
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+                                      <button  style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      visibility: hidden;
+                                      " > 
+                                  
+                                       
+                                              
+                                             14
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                      <ion-col style="    margin-top: 5px;">
+                        <div>
+                          <ion-row>
+                              <ion-col size="3">
+                                <div>
+                                      <button  style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      visibility: hidden;
+                                      " > 
+                                       
+                                              
+                                              15
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                              <ion-col size="3" offset="3">
+                                <div>
+                                      <button  style="background-color: ghostwhite;
+                                      width: 33px;
+                                      padding: 5px;
+                                      margin-bottom: 5px;
+                                      border: 2px solid ghostwhite;
+                                      visibility: hidden;
+                                      " > 
+                                  
+                                       
+                                              
+                                              16
+                                              
+                                            </button>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                        </div>
+                      </ion-col>
+                    </ion-row> <!--tyt-->
+             
+            </ion-grid>
+
+
+        </ion-footer>
+      
+
+    </ion-list >
+
+    <style>
+    
+    .card-content-ios {
+     padding: 0px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+#over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+    </style>
+
+</ion-content>

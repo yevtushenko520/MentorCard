@@ -1,0 +1,129 @@
+
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Setting User</ion-title>
+  </ion-navbar>
+
+</ion-header>
+  
+  <ion-content >
+    
+
+    <ion-list >
+       
+      <ion-item>
+        <ion-icon name="ios-person" ></ion-icon>
+       
+        <ion-label  color="primary" stacked>
+          First Name *
+          </ion-label>
+       
+
+          <ion-input type="text" [(ngModel)]="loginData.name"  placeholder="First Name "></ion-input>
+        
+      </ion-item>
+
+
+      <ion-item>
+          <ion-icon name="ios-person" ></ion-icon>
+          <ion-label  color="primary" stacked>
+            Last Name *
+          </ion-label>
+            <ion-input type="text" [(ngModel)]="loginData.surename"  placeholder=" Last Name "></ion-input>
+          
+        </ion-item>
+      
+      <ion-item>
+        <ion-icon name="mail" ></ion-icon>
+        <ion-label  color="primary" stacked>
+          Password *
+        </ion-label>
+          <ion-input type="text" [(ngModel)]="loginData.email"  placeholder=" Password "></ion-input>
+        
+      </ion-item>
+
+      <ion-item>
+          <ion-icon name="password" ></ion-icon>
+          <ion-label  color="primary" stacked>
+            Date of birth *
+          </ion-label>
+            <ion-input type="text" [(ngModel)]="loginData.password" placeholder="Date of birth "></ion-input>
+          
+        </ion-item>
+  
+      <ion-item>
+          <ion-icon name="person" ></ion-icon>
+          <ion-label  color="primary" stacked>
+            Place Birth
+          </ion-label>
+         
+            <ion-input type="text" [(ngModel)]="loginData.phone"  placeholder="Place Birth"></ion-input>
+           
+        </ion-item>
+        <ion-item>
+            <ion-icon name="person" ></ion-icon>
+            <ion-label  color="primary" stacked>
+              Country *
+            </ion-label>
+       
+            <ion-input type="text" [(ngModel)]="loginData.next_level"  placeholder="Place Birth"></ion-input>
+              
+
+          </ion-item>
+          <ion-item>
+              <ion-icon name="person" ></ion-icon>
+              <ion-label   color="primary" stacked>
+                Phone Number
+              </ion-label>
+              
+                <ion-input type="text"  [(ngModel)]="loginData.home_adress" placeholder="Phone Number"></ion-input>
+                
+            </ion-item>
+            <ion-item>
+                <ion-icon name="person" ></ion-icon>
+                <ion-label  color="primary" stacked>
+                  Email
+                </ion-label>
+              
+                  <ion-input type="text"  [(ngModel)]="loginData.mail_adress" placeholder="Email"></ion-input>
+                
+              </ion-item>
+
+              <ion-list>
+                <ion-item padding-right>
+                  <ion-label>Languages</ion-label>
+        <ion-select [(ngModel)]="gender">
+          <ion-option value="f" selected>English</ion-option>
+          <ion-option value="m3">Deutsch</ion-option>
+          <ion-option value="m2">Turk</ion-option>
+          <ion-option value="Italiano">Italiano</ion-option>
+          <ion-option value="Hrvatski">Hrvatski</ion-option>
+          <ion-option value="Español">Español</ion-option>
+          <ion-option value="Français">Français</ion-option>
+          <ion-option value="Português">Português</ion-option>
+          <ion-option value="Polski">Polski</ion-option>
+          <ion-option value="Română">Română</ion-option>
+          <ion-option value="Русский">Русский</ion-option>
+          <ion-option value="Ελληνικά">Ελληνικά</ion-option>
+          <ion-option value="2">हिंदी</ion-option>
+          <ion-option value="m4">ਪੰਜਾਬੀ</ion-option>
+          <ion-option value="m5">中文</ion-option>
+        </ion-select>
+                </ion-item>
+               
+              </ion-list>
+  
+              <button ion-button full (click)="save()">Update</button>
+
+              <ion-item>
+
+              
+            </ion-item>
+  
+    </ion-list>
+  </ion-content>
+  
