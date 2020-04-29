@@ -3,6 +3,7 @@ German driver training site. Four types of user were implemented in the website 
 Fast types of tests were integrated with 20 categories and 1000 tests, videos and pictures
 Payment method paypal and others. Many kinds of plugins (pdf, 2amigos,almasaeed2010, guzzlehttp, kartik-v, symfony etc.)
 The fast retfull API associated with yii2 was integrated into the mobile application
+The site and applications are multilingual in 32 languages
 
 # Note
 * Platform: Android, iOS, Web
